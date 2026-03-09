@@ -1,0 +1,117 @@
+/* Google Fonts — loaded at runtime (not build-time) */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=DM+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font CSS variables (used by Tailwind fontFamily config) */
+:root {
+  --font-cormorant: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-dm-sans:   'DM Sans', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-dm-mono:   'DM Mono', 'SF Mono', 'Consolas', 'Liberation Mono', monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-forma-white text-forma-text;
+  }
+
+  ::selection {
+    background-color: #C8A96E33;
+    color: #1A1A1A;
+  }
+}
+
+@layer components {
+  /* Typography utilities */
+  .section-label {
+    @apply font-mono text-[11px] tracking-label uppercase text-forma-gold;
+  }
+
+  .section-label-light {
+    @apply font-mono text-[11px] tracking-label uppercase text-forma-white/50;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase
+           bg-forma-gold text-forma-black px-8 py-4
+           hover:bg-forma-gold-dark transition-colors duration-300;
+  }
+
+  .btn-outline-gold {
+    @apply inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase
+           border border-forma-gold text-forma-gold px-8 py-4
+           hover:bg-forma-gold hover:text-forma-black transition-all duration-300;
+  }
+
+  .btn-outline-white {
+    @apply inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase
+           border border-forma-white/40 text-forma-white px-8 py-4
+           hover:border-forma-white hover:bg-forma-white/10 transition-all duration-300;
+  }
+
+  .btn-ghost-white {
+    @apply inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase
+           text-forma-white/60 hover:text-forma-white transition-colors duration-300;
+  }
+
+  /* Section spacing */
+  .section-pad {
+    @apply py-24 lg:py-32;
+  }
+
+  .section-pad-sm {
+    @apply py-16 lg:py-20;
+  }
+
+  /* Site container */
+  .site-container {
+    @apply max-w-site mx-auto px-6 sm:px-10 lg:px-16;
+  }
+
+  /* Divider line */
+  .gold-line {
+    @apply block w-10 h-px bg-forma-gold;
+  }
+
+  /* Spec table row */
+  .spec-row {
+    @apply flex justify-between items-center py-3 border-b border-forma-divider;
+  }
+
+  .spec-key {
+    @apply font-mono text-[10px] tracking-label uppercase text-forma-muted;
+  }
+
+  .spec-val {
+    @apply font-mono text-[11px] tracking-wide text-forma-text;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Fade-up animation for scroll reveals */
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
