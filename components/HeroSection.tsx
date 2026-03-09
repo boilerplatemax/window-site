@@ -1,70 +1,80 @@
 import Link from 'next/link'
 
+const ArrowRight = () => (
+  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+    <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
 export default function HeroSection() {
   return (
     <section
-      className="relative min-h-screen flex items-end bg-forma-black overflow-hidden"
+      className="relative flex flex-col bg-forma-black overflow-hidden"
+      style={{ minHeight: '100svh' }}
       aria-label="Hero"
     >
-      {/* Background image with gradient overlay */}
+      {/* ── Full-bleed background ── */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="img-cover"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80')",
         }}
         role="img"
-        aria-label="Modern home interior with floor-to-ceiling glass wall and sliding door system"
+        aria-label="Modern interior with floor-to-ceiling glass wall and sliding door system"
       />
 
-      {/* Layered gradients — left-to-right darkness + bottom vignette */}
-      <div className="absolute inset-0 bg-gradient-to-r from-forma-black/80 via-forma-black/40 to-forma-black/20" />
-      <div className="absolute inset-0 bg-gradient-to-t from-forma-black/90 via-transparent to-forma-black/20" />
+      {/* ── Layered gradients for depth ── */}
+      <div className="absolute inset-0 bg-gradient-to-r from-forma-black/82 via-forma-black/35 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/15 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-forma-black/55 to-transparent" />
 
-      {/* Content */}
-      <div className="relative z-10 site-container w-full pb-20 lg:pb-28">
-        {/* Gold accent rule */}
-        <span className="gold-line mb-8 block" aria-hidden="true" />
+      {/* ── Gold top accent line ── */}
+      <div
+        className="absolute top-0 left-0 right-0 h-px z-10"
+        style={{ background: 'linear-gradient(to right, #C8A96E 0%, #C8A96E55 35%, transparent 75%)' }}
+        aria-hidden="true"
+      />
 
-        <h1 className="font-display text-forma-white font-light leading-[1.02] tracking-tight mb-7 text-balance">
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-[84px]">
-            The architecture
-          </span>
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-[84px] italic">
-            of openness.
-          </span>
+      {/* ── Main content — bottom of viewport ── */}
+      <div className="relative z-10 mt-auto site-container w-full pb-20 lg:pb-24">
+        <p className="section-label-light mb-7">Architectural Glass Systems</p>
+
+        <h1 className="font-display text-forma-white font-light text-balance mb-10 text-hero">
+          <span className="block">The architecture</span>
+          <span className="block italic">of openness.</span>
         </h1>
 
-        <p className="font-sans text-forma-white/65 text-base sm:text-lg max-w-md mb-12 leading-relaxed">
-          Large-format windows, sliding systems, folding glass walls,
-          and entry doors — engineered for the modern build.
-        </p>
-
-        <div className="flex flex-col sm:flex-row gap-4 items-start">
-          <Link href="/windows" className="btn-primary">
-            Explore Products
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-              <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </Link>
-          <Link href="/projects" className="btn-ghost-white mt-1">
-            View Projects
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-              <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </Link>
+        <div className="flex flex-col lg:flex-row lg:items-end gap-8 lg:gap-20">
+          <p className="font-sans text-forma-white/60 text-base sm:text-[17px] max-w-[340px] leading-relaxed">
+            Large-format windows, sliding systems, folding glass walls,
+            and entry doors — engineered for the modern build.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 items-start">
+            <Link href="/windows" className="btn-primary">
+              Explore Products <ArrowRight />
+            </Link>
+            <Link href="/projects" className="btn-ghost-white">
+              View Projects <ArrowRight />
+            </Link>
+          </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div
-        className="absolute bottom-8 right-8 lg:right-16 flex flex-col items-center gap-2 text-forma-white/40"
-        aria-hidden="true"
-      >
-        <span className="font-mono text-[9px] tracking-label uppercase [writing-mode:vertical-rl] rotate-180">
-          Scroll
-        </span>
-        <span className="block w-px h-12 bg-forma-white/20" />
+      {/* ── Bottom meta strip ── */}
+      <div className="relative z-10 site-container w-full pb-7 flex items-center justify-between">
+        <div className="flex items-center gap-8">
+          <span className="font-mono text-[9px] tracking-label uppercase text-forma-white/25">
+            Light · Space · Structure
+          </span>
+          <span className="hidden sm:block font-mono text-[9px] tracking-label uppercase text-forma-white/20">
+            Est. 2012 · Vancouver, BC
+          </span>
+        </div>
+        <div className="flex flex-col items-center gap-2.5" aria-hidden="true">
+          <span className="font-mono text-[9px] tracking-label uppercase text-forma-white/30">Scroll</span>
+          <span className="block w-px h-10 bg-gradient-to-b from-forma-white/30 to-transparent" />
+        </div>
       </div>
     </section>
   )

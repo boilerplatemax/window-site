@@ -99,6 +99,40 @@
     text-wrap: balance;
   }
 
+  /* Fluid headline scaling */
+  .text-hero {
+    font-size: clamp(52px, 7.5vw, 112px);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+  }
+
+  .text-display-lg {
+    font-size: clamp(40px, 5vw, 80px);
+    line-height: 1.0;
+    letter-spacing: -0.015em;
+  }
+
+  .text-display-md {
+    font-size: clamp(32px, 3.5vw, 56px);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+  }
+
+  /* Full-width image container — bleeds to edge of viewport */
+  .img-cover {
+    @apply absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat;
+  }
+
+  /* Gold border reveal on hover (bottom edge) */
+  .hover-gold-border::after {
+    content: '';
+    @apply absolute bottom-0 left-0 h-[2px] bg-forma-gold transition-all duration-500 ease-out;
+    width: 0;
+  }
+  .hover-gold-border:hover::after {
+    width: 100%;
+  }
+
   /* Fade-up animation for scroll reveals */
   .animate-fade-up {
     animation: fadeUp 0.6s ease-out forwards;

@@ -1,55 +1,23 @@
-/**
- * FeatureSection — two roles in one component:
- *  1. "manifesto" variant: full-width brand statement on warm white
- *  2. "values"   variant: 4-column value propositions on near-black
- *
- * Usage in page.tsx:
- *   <FeatureSection variant="manifesto" />
- *   <FeatureSection variant="values" />
- */
-
 const VALUE_PROPS = [
   {
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">
-        <rect x="3" y="3" width="22" height="22" rx="0.5"/>
-        <line x1="3" y1="14" x2="25" y2="14"/>
-        <line x1="14" y1="3" x2="14" y2="25"/>
-      </svg>
-    ),
+    num: '01',
     headline: 'Made to your opening.',
     body: 'Standard sizes are a starting point. Every FORMA system is specified to your exact opening — width, height, sill depth, and profile finish.',
   },
   {
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">
-        <circle cx="14" cy="14" r="10"/>
-        <path d="M14 4v4M14 20v4M4 14h4M20 14h4"/>
-        <circle cx="14" cy="14" r="4"/>
-      </svg>
-    ),
+    num: '02',
     headline: 'Engineered for climate.',
-    body: 'Thermally broken aluminum frames, triple-glazed options, and low-E coatings rated for cold climates — without compromising the view.',
+    body: 'Thermally broken aluminium frames, triple-glazed options, and low-E coatings rated for cold climates — without sacrificing the view.',
   },
   {
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">
-        <path d="M6 22V10l8-6 8 6v12H6z"/>
-        <rect x="10" y="14" width="8" height="8"/>
-      </svg>
-    ),
+    num: '03',
     headline: 'Spec-ready for architects.',
     body: 'Full technical documentation, CAD details, energy performance data, and physical samples available for every system in our range.',
   },
   {
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">
-        <path d="M3 20h22M6 20V12l8-7 8 7v8"/>
-        <path d="M19 14l3 3M19 17l3-3"/>
-      </svg>
-    ),
+    num: '04',
     headline: 'Factory direct. No markup.',
-    body: 'We supply architects, builders, and homeowners directly. Shorter lead times, better pricing, and one point of contact from order to delivery.',
+    body: 'We supply architects, builders, and homeowners directly. Shorter lead times, better pricing, one point of contact from order to delivery.',
   },
 ]
 
@@ -58,71 +26,98 @@ interface Props {
 }
 
 export default function FeatureSection({ variant }: Props) {
+
+  /* ── Manifesto variant — editorial two-column layout ── */
   if (variant === 'manifesto') {
     return (
-      <section
-        className="bg-forma-white section-pad"
-        aria-label="Brand philosophy"
-      >
-        <div className="site-container">
-          <div className="max-w-4xl mx-auto text-center">
-            <span className="gold-line mx-auto mb-10 block" aria-hidden="true" />
+      <section className="bg-forma-white overflow-hidden" aria-label="Brand philosophy">
+        {/* Full-width top rule */}
+        <div className="w-full h-px bg-forma-divider" />
 
-            <blockquote>
-              <p className="font-display text-forma-text text-4xl sm:text-5xl lg:text-6xl font-light italic leading-[1.18] text-balance mb-10">
-                "We believe a window is not a hole in a wall. It is a decision about how
-                a building meets the world."
+        <div className="site-container py-28 lg:py-36">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-0 lg:gap-0 items-start">
+
+            {/* Left — large quote */}
+            <div className="lg:pr-16">
+              <span className="gold-line mb-10 block" aria-hidden="true" />
+              <blockquote>
+                <p className="font-display text-forma-text font-light italic leading-[1.14] text-display-lg text-balance">
+                  "A window is not a hole in a wall. It is a decision about how
+                  a building meets the world."
+                </p>
+              </blockquote>
+            </div>
+
+            {/* Centre — vertical gold rule (desktop only) */}
+            <div className="hidden lg:block w-px self-stretch bg-forma-divider mx-12" aria-hidden="true" />
+
+            {/* Right — supporting copy + attribution */}
+            <div className="lg:pt-16 mt-12 lg:mt-0">
+              <p className="font-sans text-forma-muted text-base sm:text-lg leading-relaxed mb-10">
+                FORMA engineers large-format glass systems for architects, builders,
+                and homeowners who understand that light is the material — and that
+                every opening should be deliberate.
               </p>
-            </blockquote>
 
-            <p className="font-sans text-forma-muted text-base sm:text-lg leading-relaxed max-w-xl mx-auto">
-              FORMA engineers large-format glass systems for architects, builders, and
-              homeowners who understand that light is the material — and that every
-              opening should be intentional.
-            </p>
+              <p className="font-sans text-forma-muted text-sm leading-relaxed mb-12">
+                We don't manufacture windows. We manufacture the conditions for great
+                architecture — systems that disappear into the building and let the
+                view do the work.
+              </p>
 
-            <p className="font-mono text-[11px] tracking-label uppercase text-forma-gold mt-10">
-              — FORMA Architectural Glass
-            </p>
+              <p className="font-mono text-[10px] tracking-label uppercase text-forma-gold">
+                — FORMA Architectural Glass
+              </p>
+            </div>
           </div>
         </div>
+
+        {/* Full-width bottom rule */}
+        <div className="w-full h-px bg-forma-divider" />
       </section>
     )
   }
 
+  /* ── Values variant — numbered 4-column, dark bg ── */
   return (
-    <section
-      className="bg-forma-black section-pad"
-      aria-label="Why FORMA"
-    >
-      <div className="site-container">
-        {/* Section header */}
-        <div className="mb-16 lg:mb-20">
-          <p className="section-label-light mb-4">Why FORMA</p>
-          <h2 className="font-display text-forma-white text-4xl sm:text-5xl font-light leading-tight max-w-lg">
-            Built for the demands
-            <br />
-            <em>of serious construction.</em>
-          </h2>
+    <section className="bg-forma-black" aria-label="Why FORMA">
+      {/* Top border full width */}
+      <div className="w-full h-px bg-forma-white/8" />
+
+      <div className="site-container py-28 lg:py-36">
+
+        {/* Header row */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20 lg:mb-24">
+          <div>
+            <p className="section-label-light mb-5">Why FORMA</p>
+            <h2 className="font-display text-forma-white font-light text-display-md">
+              Built for the demands
+              <br />
+              <em>of serious construction.</em>
+            </h2>
+          </div>
+          <div className="lg:flex lg:items-end">
+            <p className="font-sans text-forma-white/40 text-sm leading-relaxed max-w-sm">
+              Four principles that separate a reliable glass supplier from an
+              extraordinary one. Every project, every order, every time.
+            </p>
+          </div>
         </div>
 
-        {/* 4-column grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
-          {VALUE_PROPS.map((v, i) => (
-            <div key={i} className="group">
-              {/* Icon */}
-              <div className="text-forma-gold mb-6 transition-transform duration-300 group-hover:-translate-y-1">
-                {v.icon}
+        {/* 4-column values — separated by vertical rules on desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x divide-forma-white/8">
+          {VALUE_PROPS.map((v) => (
+            <div key={v.num} className="group py-10 sm:py-0 lg:px-8 first:lg:pl-0 last:lg:pr-0">
+              {/* Number + top rule */}
+              <div className="flex items-center gap-4 mb-8">
+                <span className="font-mono text-[10px] tracking-label uppercase text-forma-gold">{v.num}</span>
+                <span className="flex-1 h-px bg-forma-white/10" />
               </div>
 
-              {/* Rule */}
-              <span className="gold-line mb-5 block opacity-40" />
-
-              {/* Text */}
-              <h3 className="font-display text-forma-white text-xl font-light leading-snug mb-4">
+              <h3 className="font-display text-forma-white text-2xl font-light leading-snug mb-5 group-hover:text-forma-gold transition-colors duration-400">
                 {v.headline}
               </h3>
-              <p className="font-sans text-forma-white/50 text-sm leading-relaxed">
+              <p className="font-sans text-forma-white/45 text-sm leading-relaxed">
                 {v.body}
               </p>
             </div>
