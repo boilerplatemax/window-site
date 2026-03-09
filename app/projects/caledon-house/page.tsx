@@ -36,9 +36,9 @@ const SPECS = [
 ]
 
 const GALLERY = [
-  { src: '/images/caledon-house-1.jpg', alt: 'Caledon House — rear elevation with lift & slide doors fully open to terrace' },
-  { src: '/images/caledon-house-2.jpg', alt: 'Caledon House — interior view through floor-to-ceiling windows to escarpment' },
-  { src: '/images/caledon-house-3.jpg', alt: 'Caledon House — corner glass detail at dining room' },
+  { src: '/images/caledon-house-exterior-2.jpg', alt: 'The Caledon House — rear elevation showing lift & slide glass wall systems' },
+  { src: '/images/caledon-house-interrior-1.jpg', alt: 'The Caledon House — interior view through floor-to-ceiling windows to the Niagara Escarpment' },
+  { src: '/images/caledon-house-interrior-2.jpg', alt: 'The Caledon House — interior detail of corner glass system at dining room' },
 ]
 
 export default function CaledonHousePage() {
@@ -52,7 +52,7 @@ export default function CaledonHousePage() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/caledon-house-hero.jpg'), url('https://images.unsplash.com/photo-1600607687644-c7f34b5e0f98?auto=format&fit=crop&w=1920&q=80')" }}
+          style={{ backgroundImage: "url('/images/caledon-house-exterior-1.jpg')" }}
           role="img"
           aria-label="The Caledon House — rear elevation with FORMA lift & slide glass wall systems"
         />

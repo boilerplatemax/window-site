@@ -27,8 +27,8 @@ const FEATURED = {
   products: 'Lift & Slide · Floor-to-Ceiling Windows · Corner Glass',
   description:
     'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. FORMA supplied a full glazing package across the main living spaces — lift & slide systems opening onto the rear terrace, corner glass connecting the dining room to two aspects of the landscape, and floor-to-ceiling windows running the full width of the primary bedroom wing.',
-  image: '/images/caledon-house-hero.jpg',
-  imageFallback: 'https://images.unsplash.com/photo-1600607687644-c7f34b5e0f98?auto=format&fit=crop&w=1800&q=85',
+  image: '/images/caledon-house-exterior-2.jpg',
+  imageFallback: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85',
 }
 
 const PROJECTS = [
@@ -40,7 +40,7 @@ const PROJECTS = [
     tag: 'Residential',
     products: 'Bi-Fold Glass Walls · Picture Windows · Pivot Entry Door',
     description: 'A contemporary residence on a ravine lot in Mississauga. Bi-fold glass walls open the main living area to a cantilevered deck, while a 3-metre pivot entry door makes a statement from the street.',
-    image: '/images/mississauga-house-hero.jpg',
+    image: '/images/mississauga-house-exterior-1.jpg',
     imageFallback: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80',
     span: 'col-span-1 sm:col-span-2',
     isReal: true,
@@ -89,7 +89,7 @@ export default function ProjectsPage() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('${FEATURED.image}'), url('${FEATURED.imageFallback}')` }}
+          style={{ backgroundImage: `url('${FEATURED.image}')` }}
           role="img"
           aria-label="The Caledon House — architectural glass installation, Caledon, Ontario"
         />
@@ -144,7 +144,7 @@ export default function ProjectsPage() {
         >
           <div
             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-            style={{ backgroundImage: `url('${FEATURED.image}'), url('${FEATURED.imageFallback}')`, backgroundColor: '#111' }}
+            style={{ backgroundImage: `url('${FEATURED.image}')`, backgroundColor: '#111' }}
             role="img"
             aria-label={`${FEATURED.name}, ${FEATURED.location} — architectural glass installation`}
           />

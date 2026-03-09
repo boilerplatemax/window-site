@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div
         className="img-cover"
         style={{
-          backgroundImage: "url('/images/hero.jpg'), url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80')",
+          backgroundImage: "url('/images/caledon-house-exterior-2.jpg')",
         }}
         role="img"
         aria-label="Modern interior with floor-to-ceiling glass wall and sliding door system"

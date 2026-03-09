@@ -8,7 +8,7 @@ const CATEGORIES = [
     label: 'Windows',
     count: '4 systems',
     headline: ['Expansive glazing,', 'precisely framed.'],
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1000&q=85',
+    image: '/images/caledon-house-interrior-1.jpg',
     bg: '#141414',
   },
   {
@@ -18,7 +18,7 @@ const CATEGORIES = [
     label: 'Sliding Doors',
     count: '3 systems',
     headline: ['Open the wall.', 'Close the distance.'],
-    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1000&q=85',
+    image: '/images/mississauga-house-exterior-1.jpg',
     bg: '#111111',
   },
   {
@@ -28,7 +28,7 @@ const CATEGORIES = [
     label: 'Folding Glass Walls',
     count: '2 systems',
     headline: ['No threshold', 'between in and out.'],
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=85',
+    image: '/images/caledon-house-backyard-1.jpg',
     bg: '#0f0f0f',
   },
   {
@@ -38,7 +38,7 @@ const CATEGORIES = [
     label: 'Entry Doors',
     count: '3 systems',
     headline: ['First impressions', 'that last.'],
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1000&q=85',
+    image: '/images/caledon-house-exterior-1.jpg',
     bg: '#131313',
   },
 ]

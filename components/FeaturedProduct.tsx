@@ -27,7 +27,7 @@ export default function FeaturedProduct() {
               className="absolute inset-0 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80')",
+                  "url('/images/caledon-house-backyard-1.jpg')",
                 backgroundColor: '#1a1a1a',
               }}
               role="img"

@@ -36,8 +36,8 @@ const SPECS = [
 ]
 
 const GALLERY = [
-  { src: '/images/mississauga-house-1.jpg', alt: 'Mississauga Residence — bi-fold glass walls fully open to cantilevered ravine deck' },
-  { src: '/images/mississauga-house-2.jpg', alt: 'Mississauga Residence — 3-metre pivot entry door detail' },
+  { src: '/images/mississauga-house-interior-1.jpg', alt: 'The Mississauga Residence — bi-fold glass wall interior looking out to ravine deck' },
+  { src: '/images/caledon-house-backyard-1.jpg', alt: 'Residential glass wall system — backyard view with lift & slide doors open' },
 ]
 
 export default function MississaugaHousePage() {
@@ -51,7 +51,7 @@ export default function MississaugaHousePage() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/mississauga-house-hero.jpg'), url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1920&q=80')" }}
+          style={{ backgroundImage: "url('/images/mississauga-house-exterior-1.jpg')" }}
           role="img"
           aria-label="The Mississauga Residence — bi-fold glass wall system open to outdoor deck"
         />

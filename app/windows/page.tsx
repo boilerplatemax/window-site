@@ -43,7 +43,7 @@ const PRODUCTS = [
       { k: 'Thermal Break',v: 'Class A Aluminium Profile' },
       { k: 'Operation',    v: 'Fixed · Tilt-Turn · Tilt-Slide' },
     ],
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/caledon-house-interrior-1.jpg',
   },
   {
     id: 'picture-windows',
@@ -62,7 +62,7 @@ const PRODUCTS = [
       { k: 'Finish',       v: 'Any RAL · Anodised · Dual-colour' },
       { k: 'Custom Size',  v: 'Any rectangular dimension' },
     ],
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/caledon-house-interrior-2.jpg',
   },
   {
     id: 'corner-glass',
@@ -100,7 +100,7 @@ const PRODUCTS = [
       { k: 'Applications', v: 'Residential · Commercial · Interior' },
       { k: 'Certifications',v: 'NAFS Tested · CSA A440' },
     ],
-    image: 'https://images.unsplash.com/photo-1449844908441-8829b2f41b30?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/rural-house-roof-1.jpg',
   },
 ]
 
@@ -134,7 +134,7 @@ export default function WindowsPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80')",
+              "url('/images/caledon-house-interrior-1.jpg')",
           }}
           role="img"
           aria-label="Floor-to-ceiling glass wall in a modern residence"

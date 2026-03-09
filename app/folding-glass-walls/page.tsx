@@ -115,7 +115,7 @@ export default function FoldingGlassWallsPage() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1920&q=80')" }}
+          style={{ backgroundImage: "url('/images/caledon-house-interrior-2.jpg')" }}
           role="img"
           aria-label="Bi-fold glass wall system fully open to exterior terrace"
         />
