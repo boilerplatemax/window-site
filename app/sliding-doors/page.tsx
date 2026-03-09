@@ -122,19 +122,19 @@ export default function SlidingDoorsPage() {
           role="img"
           aria-label="Large lift and slide door system in a modern home"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-forma-black/88 via-forma-black/45 to-forma-black/10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-forma-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-forma-black/94 via-forma-black/60 to-forma-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-forma-black/90 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-px"
           style={{ background: 'linear-gradient(to right, #C8A96E, #C8A96E44 40%, transparent 70%)' }} />
 
         <div className="relative z-10 site-container w-full pb-20 pt-44">
-          <p className="section-label-light mb-6">Sliding Systems</p>
+          <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Sliding Systems</p>
           <h1 className="font-display text-forma-white font-light text-balance mb-7 text-display-lg">
             Open the wall.
             <br />
             <em>Close the distance.</em>
           </h1>
-          <p className="font-sans text-forma-white/58 text-base sm:text-lg max-w-[420px] leading-relaxed mb-10">
+          <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed mb-10">
             Lift & slide, multi-panel, and concealed pocket systems — engineered
             to dissolve the boundary between inside and out.
           </p>

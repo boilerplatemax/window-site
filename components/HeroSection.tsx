@@ -25,9 +25,9 @@ export default function HeroSection() {
       />
 
       {/* ── Layered gradients for depth ── */}
-      <div className="absolute inset-0 bg-gradient-to-r from-forma-black/82 via-forma-black/35 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/15 to-transparent" />
-      <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-forma-black/55 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-forma-black/92 via-forma-black/55 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/25 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-forma-black/70 to-transparent" />
 
       {/* ── Gold top accent line ── */}
       <div
@@ -38,15 +38,15 @@ export default function HeroSection() {
 
       {/* ── Main content — bottom of viewport ── */}
       <div className="relative z-10 mt-auto site-container w-full pb-20 lg:pb-24">
-        <p className="section-label-light mb-7">Architectural Glass Systems</p>
+        <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-7">Architectural Glass Systems</p>
 
         <h1 className="font-display text-forma-white font-light text-balance mb-10 text-hero">
           <span className="block">The architecture</span>
           <span className="block italic">of openness.</span>
         </h1>
 
-        <div className="flex flex-col lg:flex-row lg:items-end gap-8 lg:gap-20">
-          <p className="font-sans text-forma-white/60 text-base sm:text-[17px] max-w-[340px] leading-relaxed">
+        <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-20">
+          <p className="font-sans text-forma-white/90 text-base sm:text-[17px] max-w-[340px] leading-relaxed">
             Large-format windows, sliding systems, folding glass walls,
             and entry doors — engineered for the modern build.
           </p>
@@ -61,21 +61,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* ── Bottom meta strip ── */}
-      <div className="relative z-10 site-container w-full pb-7 flex items-center justify-between">
-        <div className="flex items-center gap-8">
-          <span className="font-mono text-[9px] tracking-label uppercase text-forma-white/25">
-            Light · Space · Structure
-          </span>
-          <span className="hidden sm:block font-mono text-[9px] tracking-label uppercase text-forma-white/20">
-            Est. 2012 · Vancouver, BC
-          </span>
-        </div>
-        <div className="flex flex-col items-center gap-2.5" aria-hidden="true">
-          <span className="font-mono text-[9px] tracking-label uppercase text-forma-white/30">Scroll</span>
-          <span className="block w-px h-10 bg-gradient-to-b from-forma-white/30 to-transparent" />
-        </div>
-      </div>
     </section>
   )
 }

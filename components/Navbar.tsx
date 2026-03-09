@@ -64,7 +64,7 @@ export default function Navbar() {
                   className={`font-sans text-[11px] tracking-wide-2 uppercase transition-colors duration-300 ${
                     active
                       ? 'text-forma-gold'
-                      : 'text-forma-white/75 hover:text-forma-white'
+                      : 'text-forma-white hover:text-forma-gold'
                   }`}
                 >
                   {label}
