@@ -63,7 +63,7 @@ export default function ProductCategoryGrid() {
             />
 
             {/* Gradient: strong bottom, fades to nothing at 40% */}
-            <div className="absolute inset-0 bg-gradient-to-t from-forma-black/92 via-forma-black/40 to-transparent transition-opacity duration-500 group-hover:from-forma-black/96" />
+            <div className="absolute inset-0 bg-gradient-to-t from-forma-black/96 via-forma-black/60 to-transparent transition-opacity duration-500 group-hover:from-black" />
 
             {/* Top-right counter */}
             <span
@@ -77,8 +77,8 @@ export default function ProductCategoryGrid() {
             <div className="relative z-10 p-8 lg:p-11">
               <p className="section-label mb-4 flex items-center gap-3">
                 <span>{cat.label}</span>
-                <span className="text-forma-white/20" aria-hidden="true">·</span>
-                <span className="text-forma-white/40 normal-case font-sans text-[11px] tracking-normal">{cat.count}</span>
+                <span className="text-forma-white/50" aria-hidden="true">·</span>
+                <span className="text-forma-white/70 normal-case font-sans text-[11px] tracking-normal">{cat.count}</span>
               </p>
 
               <h3 className="font-display text-forma-white font-light text-display-md">

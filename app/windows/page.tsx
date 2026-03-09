@@ -8,8 +8,15 @@ export const metadata: Metadata = {
     'Floor-to-ceiling windows, picture windows, corner glass systems, and fixed panels — custom-sized, thermally broken aluminium for residential and commercial projects.',
   keywords: [
     'large format windows', 'floor to ceiling windows', 'architectural windows',
-    'corner glass systems', 'picture windows', 'custom windows residential',
+    'corner glass systems', 'picture windows', 'modern aluminum windows',
+    'custom windows residential', 'thermally broken aluminum windows',
   ],
+  openGraph: {
+    title: 'Large Format Architectural Windows — FORMA',
+    description: 'Floor-to-ceiling windows, picture windows, corner glass systems, and fixed panels — custom-sized thermally broken aluminium.',
+    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'Floor-to-ceiling glass wall in a modern residence' }],
+  },
+  alternates: { canonical: 'https://formaglass.com/windows' },
 }
 
 const Arr = () => (
@@ -136,6 +143,7 @@ export default function WindowsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black/90 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-px"
           style={{ background: 'linear-gradient(to right, #C8A96E, #C8A96E44 40%, transparent 70%)' }} />
+        <div className="absolute top-0 left-0 right-0 h-72 bg-gradient-to-b from-forma-black/90 to-transparent" aria-hidden="true" />
 
         <div className="relative z-10 site-container w-full pb-20 pt-44">
           <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Product Range</p>

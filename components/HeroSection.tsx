@@ -17,8 +17,7 @@ export default function HeroSection() {
       <div
         className="img-cover"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80')",
+          backgroundImage: "url('/images/hero.jpg'), url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80')",
         }}
         role="img"
         aria-label="Modern interior with floor-to-ceiling glass wall and sliding door system"
@@ -27,7 +26,7 @@ export default function HeroSection() {
       {/* ── Layered gradients for depth ── */}
       <div className="absolute inset-0 bg-gradient-to-r from-forma-black/92 via-forma-black/55 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/25 to-transparent" />
-      <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-forma-black/70 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-72 bg-gradient-to-b from-forma-black/90 to-transparent" aria-hidden="true" />
 
       {/* ── Gold top accent line ── */}
       <div
@@ -54,7 +53,7 @@ export default function HeroSection() {
             <Link href="/windows" className="btn-primary">
               Explore Products <ArrowRight />
             </Link>
-            <Link href="/projects" className="btn-ghost-white">
+            <Link href="/projects" className="btn-outline-white">
               View Projects <ArrowRight />
             </Link>
           </div>

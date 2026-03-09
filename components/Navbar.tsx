@@ -76,7 +76,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <Link
             href="/contact"
-            className="hidden lg:inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase border border-forma-gold text-forma-gold px-5 py-2.5 hover:bg-forma-gold hover:text-forma-black transition-all duration-300"
+            className="hidden lg:inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase bg-forma-gold text-forma-black px-5 py-2.5 hover:bg-forma-gold-dark transition-colors duration-300"
           >
             Request a Quote
           </Link>

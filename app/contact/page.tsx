@@ -111,7 +111,7 @@ export default function ContactPage() {
                 Tell us about your project and we'll come back with a specification recommendation,
                 system selection, and indicative pricing — within one business day.
               </p>
-              <p className="font-sans text-forma-white/50 text-sm leading-relaxed">
+              <p className="font-sans text-forma-white/70 text-sm leading-relaxed">
                 We work directly with architects, builders, interior designers, and
                 homeowners across North America and the Pacific. No middlemen.
                 No catalogue constraints.
@@ -132,7 +132,7 @@ export default function ContactPage() {
                   <span className="flex-1 h-px bg-forma-white/10" />
                 </div>
                 <h3 className="font-sans text-forma-white text-sm font-medium mb-2">{title}</h3>
-                <p className="font-sans text-forma-white/45 text-xs leading-relaxed">{body}</p>
+                <p className="font-sans text-forma-white/65 text-xs leading-relaxed">{body}</p>
               </div>
             ))}
           </div>
@@ -288,8 +288,8 @@ export default function ContactPage() {
                           </svg>
                         )}
                       </button>
-                      <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted/50">
-                        We respond within 1 business day
+                      <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted">
+                        No obligation · We respond within 1 business day
                       </p>
                     </div>
                   </form>

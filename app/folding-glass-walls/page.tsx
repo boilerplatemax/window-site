@@ -9,7 +9,14 @@ export const metadata: Metadata = {
   keywords: [
     'folding glass walls', 'bi fold glass doors', 'glass wall system',
     'accordion glass wall', 'bi fold glass wall residential', 'corner opening system',
+    'architectural glass wall', 'indoor outdoor glass system',
   ],
+  openGraph: {
+    title: 'Folding Glass Walls — Bi-Fold & Corner Systems — FORMA',
+    description: 'Bi-fold glass walls and corner opening systems — open entire wall faces for seamless indoor-outdoor connection.',
+    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'Bi-fold glass wall fully open to outdoor terrace' }],
+  },
+  alternates: { canonical: 'https://formaglass.com/folding-glass-walls' },
 }
 
 const Arr = () => (
@@ -116,6 +123,7 @@ export default function FoldingGlassWallsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black/90 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-px"
           style={{ background: 'linear-gradient(to right, #C8A96E, #C8A96E44 40%, transparent 70%)' }} />
+        <div className="absolute top-0 left-0 right-0 h-72 bg-gradient-to-b from-forma-black/90 to-transparent" aria-hidden="true" />
 
         <div className="relative z-10 site-container w-full pb-20 pt-44">
           <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Folding Systems</p>

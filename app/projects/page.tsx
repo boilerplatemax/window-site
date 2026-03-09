@@ -5,58 +5,45 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Projects & Inspiration — Architectural Glass Installations',
   description:
-    'Explore completed FORMA projects — residential and commercial installations featuring large-format windows, sliding door systems, folding glass walls, and architectural entry doors across the Pacific Northwest and beyond.',
+    'Completed FORMA projects — residential and commercial glass installations across Ontario and the Pacific Northwest, featuring large-format windows, lift & slide systems, folding glass walls, and architectural entry doors.',
   keywords: [
-    'architectural glass projects', 'modern window installation', 'glass wall residential project',
-    'luxury home glass doors', 'modern coastal house windows', 'glass pavilion architecture',
+    'architectural glass projects Ontario', 'modern window installation residential',
+    'glass wall project Canada', 'Caledon house architectural windows',
+    'Mississauga modern residence glass doors', 'large format windows installation',
   ],
+  openGraph: {
+    title: 'Projects & Inspiration — FORMA Architectural Glass',
+    description: 'Custom architectural glass installations for residential and commercial projects across Canada and the Pacific Northwest.',
+    images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House — architectural glass project' }],
+  },
 }
 
 const FEATURED = {
-  id: 'ridge-house',
-  name: 'The Ridge House',
-  location: 'Whistler, BC',
+  id: 'caledon-house',
+  name: 'The Caledon House',
+  location: 'Caledon, ON',
   type: 'Private Residence',
-  architect: 'Studio Eleven Architecture',
-  products: 'Lift & Slide · Floor-to-Ceiling Windows',
+  architect: 'Custom Build',
+  products: 'Lift & Slide · Floor-to-Ceiling Windows · Corner Glass',
   description:
-    'Perched at the treeline, The Ridge House was designed around its relationship with the surrounding forest. FORMA supplied eleven glass panels across three lift & slide systems and eight floor-to-ceiling window units — all custom-specified to the architect\'s exact dimensions.',
-  image: 'https://images.unsplash.com/photo-1600607687644-c7f34b5e0f98?auto=format&fit=crop&w=1800&q=85',
+    'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. FORMA supplied a full glazing package across the main living spaces — lift & slide systems opening onto the rear terrace, corner glass connecting the dining room to two aspects of the landscape, and floor-to-ceiling windows running the full width of the primary bedroom wing.',
+  image: '/images/caledon-house-hero.jpg',
+  imageFallback: 'https://images.unsplash.com/photo-1600607687644-c7f34b5e0f98?auto=format&fit=crop&w=1800&q=85',
 }
 
 const PROJECTS = [
   {
-    id: 'coastal-house',
-    name: 'Modern Coastal House',
-    location: 'Tofino, BC',
+    id: 'mississauga-house',
+    name: 'The Mississauga Residence',
+    location: 'Mississauga, ON',
     type: 'Residential',
     tag: 'Residential',
-    products: 'Bi-Fold Glass Walls · Picture Windows',
-    description: 'A weatherboard home on the Pacific coast designed to frame the ocean without interruption. Eight bi-fold panels open a 9-metre wall to the beach terrace.',
-    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80',
+    products: 'Bi-Fold Glass Walls · Picture Windows · Pivot Entry Door',
+    description: 'A contemporary residence on a ravine lot in Mississauga. Bi-fold glass walls open the main living area to a cantilevered deck, while a 3-metre pivot entry door makes a statement from the street.',
+    image: '/images/mississauga-house-hero.jpg',
+    imageFallback: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80',
     span: 'col-span-1 sm:col-span-2',
-  },
-  {
-    id: 'glass-pavilion',
-    name: 'Minimalist Glass Pavilion',
-    location: 'Salt Spring Island, BC',
-    type: 'Residential',
-    tag: 'Residential',
-    products: 'Corner Opening System · Fixed Panels',
-    description: 'A single-storey pavilion with frameless corner glass on three sides. When open, no barrier remains between the interior and surrounding meadow.',
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80',
-    span: 'col-span-1',
-  },
-  {
-    id: 'hillside-home',
-    name: 'Luxury Hillside Home',
-    location: 'West Vancouver, BC',
-    type: 'Residential',
-    tag: 'Residential',
-    products: 'Lift & Slide · Corner Glass · Pivot Entry',
-    description: 'A cantilevered hillside residence with unobstructed views of Howe Sound. FORMA supplied the full glazing package: corner windows, lift & slide systems, and a 3.2-metre pivot entry door.',
-    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=900&q=80',
-    span: 'col-span-1',
+    isReal: true,
   },
   {
     id: 'pacific-pavilion',
@@ -68,17 +55,7 @@ const PROJECTS = [
     description: 'A woodland pavilion where the glazing system was specified to disappear — allowing the interior to read as an extension of the forest floor.',
     image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=900&q=80',
     span: 'col-span-1',
-  },
-  {
-    id: 'kala-studio',
-    name: 'Kala Creative Studio',
-    location: 'Seattle, WA',
-    type: 'Commercial',
-    tag: 'Commercial',
-    products: 'Multi-Panel Sliding · Fixed Glass Panels',
-    description: 'A commercial creative studio with an interior glass partition system that divides or opens the space for different uses throughout the day.',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80',
-    span: 'col-span-1',
+    isReal: false,
   },
   {
     id: 'cedar-retreat',
@@ -87,9 +64,10 @@ const PROJECTS = [
     type: 'Residential',
     tag: 'Residential',
     products: 'Pivot Entry Door · Picture Windows',
-    description: 'A wine country retreat where material honesty was the design brief. Cedar cladding and a blackened steel pivot door with clear glass panel frame the view from the entry threshold.',
+    description: 'A wine country retreat where material honesty was the design brief. A blackened steel pivot door with clear glass panel frames the view from the entry threshold.',
     image: 'https://images.unsplash.com/photo-1449844908441-8829b2f41b30?auto=format&fit=crop&w=900&q=80',
-    span: 'col-span-1 sm:col-span-2',
+    span: 'col-span-1',
+    isReal: false,
   },
 ]
 
@@ -107,66 +85,54 @@ export default function ProjectsPage() {
       <section
         className="relative flex flex-col justify-end bg-forma-black overflow-hidden"
         style={{ minHeight: '65vh' }}
+        aria-label="Projects hero"
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('${FEATURED.image}')` }}
+          style={{ backgroundImage: `url('${FEATURED.image}'), url('${FEATURED.imageFallback}')` }}
           role="img"
-          aria-label="The Ridge House — Whistler, BC"
+          aria-label="The Caledon House — architectural glass installation, Caledon, Ontario"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-forma-black/94 via-forma-black/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/20 to-transparent" />
+        {/* Top gradient for nav readability */}
+        <div className="absolute top-0 left-0 right-0 h-72 bg-gradient-to-b from-forma-black/90 to-transparent" aria-hidden="true" />
         <div
           className="absolute top-0 left-0 right-0 h-px"
           style={{ background: 'linear-gradient(to right, #C8A96E, #C8A96E44 40%, transparent 70%)' }}
+          aria-hidden="true"
         />
 
         <div className="relative z-10 site-container w-full pb-20 pt-44">
-          <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Projects & Inspiration</p>
+          <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Projects &amp; Inspiration</p>
           <h1 className="font-display text-forma-white font-light text-balance mb-7 text-display-lg">
             Work that speaks
             <br />
             <em>for itself.</em>
           </h1>
           <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed">
-            Residential and commercial installations across the Pacific Northwest
+            Residential and commercial installations across Ontario, the Pacific Northwest,
             and beyond — every project custom-specified to the site and the architect.
           </p>
         </div>
       </section>
 
       {/* ── Stats bar ── */}
-      <div className="bg-forma-black border-b border-forma-white/8">
+      <div className="bg-forma-black border-b border-forma-white/10">
         <div className="site-container py-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
             {STATS.map(({ num, label }) => (
               <div key={label} className="text-center sm:text-left">
                 <p className="font-display text-forma-white text-3xl font-light">{num}</p>
-                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/40 mt-0.5">{label}</p>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/55 mt-0.5">{label}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
 
-      {/* ── Filter strip ── */}
-      <div className="bg-forma-black border-b border-forma-white/10 sticky top-[72px] z-30">
-        <div className="site-container flex gap-8 py-4 overflow-x-auto">
-          {['All Projects', 'Residential', 'Commercial'].map((f, i) => (
-            <button
-              key={f}
-              className={`font-mono text-[10px] tracking-label uppercase whitespace-nowrap transition-colors duration-200 ${
-                i === 0 ? 'text-forma-gold' : 'text-forma-white/40 hover:text-forma-white/70'
-              }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* ── Featured Project ── */}
-      <section className="bg-forma-black pt-16 pb-0" aria-label="Featured project">
+      {/* ── Featured Project — The Caledon House ── */}
+      <section className="bg-forma-black pt-16 pb-0" aria-label="Featured project — The Caledon House">
         <div className="site-container mb-5">
           <p className="section-label-light">Featured Project</p>
         </div>
@@ -178,17 +144,23 @@ export default function ProjectsPage() {
         >
           <div
             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-            style={{ backgroundImage: `url('${FEATURED.image}')`, backgroundColor: '#111' }}
+            style={{ backgroundImage: `url('${FEATURED.image}'), url('${FEATURED.imageFallback}')`, backgroundColor: '#111' }}
             role="img"
-            aria-label={`${FEATURED.name}, ${FEATURED.location}`}
+            aria-label={`${FEATURED.name}, ${FEATURED.location} — architectural glass installation`}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-forma-black/85 via-forma-black/25 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-forma-black/88 via-forma-black/25 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 site-container pb-10">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
               <div>
-                <p className="font-mono text-[10px] tracking-label uppercase text-forma-gold mb-2">{FEATURED.location} · {FEATURED.type}</p>
-                <h2 className="font-display text-forma-white font-light italic text-display-md">{FEATURED.name}</h2>
-                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mt-2">{FEATURED.products}</p>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-gold mb-2">
+                  {FEATURED.location} · {FEATURED.type}
+                </p>
+                <h2 className="font-display text-forma-white font-light italic text-display-md">
+                  {FEATURED.name}
+                </h2>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/65 mt-2">
+                  {FEATURED.products}
+                </p>
               </div>
               <div className="flex items-center gap-2 font-mono text-[10px] tracking-label uppercase text-forma-gold opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-400">
                 View Project
@@ -208,43 +180,38 @@ export default function ProjectsPage() {
             {PROJECTS.map((project) => (
               <Link
                 key={project.id}
-                href={`/projects/${project.id}`}
+                href={project.isReal ? `/projects/${project.id}` : '/projects/coming-soon'}
                 className={`group relative overflow-hidden hover-gold-border ${project.span ?? ''}`}
                 style={{ height: 'clamp(280px, 28vw, 420px)' }}
                 aria-label={`View ${project.name} project`}
               >
-                {/* Background */}
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.05]"
                   style={{ backgroundImage: `url('${project.image}')`, backgroundColor: '#111' }}
                   role="img"
                   aria-label={`${project.name}, ${project.location}`}
                 />
-                {/* Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-forma-black/88 via-forma-black/30 to-transparent transition-opacity duration-500 group-hover:from-forma-black/94" />
+                <div className="absolute inset-0 bg-gradient-to-t from-forma-black/92 via-forma-black/35 to-transparent transition-opacity duration-500 group-hover:from-forma-black/96" />
 
-                {/* Tag */}
-                <span className="absolute top-5 right-5 font-mono text-[9px] tracking-label uppercase bg-forma-black/55 backdrop-blur-sm text-forma-white/70 px-2.5 py-1.5">
+                <span className="absolute top-5 right-5 font-mono text-[9px] tracking-label uppercase bg-forma-black/60 backdrop-blur-sm text-forma-white/80 px-2.5 py-1.5">
                   {project.tag}
                 </span>
 
-                {/* Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 lg:p-8">
                   <p className="font-mono text-[9px] tracking-label uppercase text-forma-gold mb-1.5">{project.location}</p>
                   <h3 className="font-display text-forma-white font-light text-xl lg:text-2xl leading-snug mb-1">
                     {project.name}
                   </h3>
-                  <p className="font-sans text-forma-white/45 text-xs mb-4">{project.products}</p>
+                  <p className="font-sans text-forma-white/60 text-xs mb-4">{project.products}</p>
 
-                  {/* Hover reveal */}
                   <div className="overflow-hidden max-h-0 group-hover:max-h-24 transition-all duration-500 ease-out">
-                    <p className="font-sans text-forma-white/65 text-[12px] leading-relaxed pb-1">
+                    <p className="font-sans text-forma-white/75 text-[12px] leading-relaxed pb-1">
                       {project.description}
                     </p>
                   </div>
 
                   <div className="flex items-center gap-2 font-mono text-[10px] tracking-label uppercase text-forma-gold mt-3 translate-y-1 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">
-                    View Project
+                    {project.isReal ? 'View Project' : 'More Soon'}
                     <svg width="11" height="11" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                       <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -257,7 +224,7 @@ export default function ProjectsPage() {
       </section>
 
       {/* ── Process strip ── */}
-      <section className="bg-forma-surface border-y border-forma-divider">
+      <section className="bg-forma-surface border-y border-forma-divider" aria-label="How we work">
         <div className="site-container py-20 lg:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

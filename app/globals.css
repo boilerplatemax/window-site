@@ -34,7 +34,7 @@
   }
 
   .section-label-light {
-    @apply font-mono text-[11px] tracking-label uppercase text-forma-white/50;
+    @apply font-mono text-[11px] tracking-label uppercase text-forma-white/65;
   }
 
   /* Buttons */
@@ -52,13 +52,13 @@
 
   .btn-outline-white {
     @apply inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase
-           border border-forma-white/40 text-forma-white px-8 py-4
+           border border-forma-white/65 text-forma-white px-8 py-4
            hover:border-forma-white hover:bg-forma-white/10 transition-all duration-300;
   }
 
   .btn-ghost-white {
     @apply inline-flex items-center gap-2 font-sans text-[11px] tracking-wide-2 uppercase
-           text-forma-white/60 hover:text-forma-white transition-colors duration-300;
+           text-forma-white/80 hover:text-forma-white transition-colors duration-300;
   }
 
   /* Section spacing */

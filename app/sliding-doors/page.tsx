@@ -9,7 +9,14 @@ export const metadata: Metadata = {
   keywords: [
     'sliding glass doors', 'lift and slide doors', 'large sliding glass doors',
     'lift slide door system', 'multi panel sliding doors', 'glass pocket doors',
+    'modern sliding glass door system', 'architectural sliding doors',
   ],
+  openGraph: {
+    title: 'Sliding Glass Door Systems — Lift & Slide, Multi-Panel — FORMA',
+    description: 'Large-format sliding glass door systems — lift & slide, multi-panel, and concealed pocket. Custom widths up to 8m.',
+    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'Lift and slide glass door system in modern residence' }],
+  },
+  alternates: { canonical: 'https://formaglass.com/sliding-doors' },
 }
 
 const Arr = () => (
@@ -126,6 +133,7 @@ export default function SlidingDoorsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black/90 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-px"
           style={{ background: 'linear-gradient(to right, #C8A96E, #C8A96E44 40%, transparent 70%)' }} />
+        <div className="absolute top-0 left-0 right-0 h-72 bg-gradient-to-b from-forma-black/90 to-transparent" aria-hidden="true" />
 
         <div className="relative z-10 site-container w-full pb-20 pt-44">
           <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Sliding Systems</p>

@@ -31,20 +31,20 @@ export default function Footer() {
             <p className="font-display text-2xl tracking-[0.28em] uppercase text-forma-white mb-4">
               FORMA
             </p>
-            <p className="font-sans text-forma-white/50 text-sm leading-relaxed max-w-xs mb-8">
+            <p className="font-sans text-forma-white/70 text-sm leading-relaxed max-w-xs mb-8">
               Large-format windows, sliding systems, folding glass walls, and architectural
               entry doors — engineered for residential and commercial projects.
             </p>
             <p className="section-label-light mb-2">Contact</p>
             <a
               href="mailto:hello@formaglass.com"
-              className="font-sans text-sm text-forma-white/70 hover:text-forma-gold transition-colors duration-200 block mb-1"
+              className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-1"
             >
               hello@formaglass.com
             </a>
             <a
               href="tel:+16045550192"
-              className="font-sans text-sm text-forma-white/70 hover:text-forma-gold transition-colors duration-200 block"
+              className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block"
             >
               +1 (604) 555-0192
             </a>
@@ -58,7 +58,7 @@ export default function Footer() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="font-sans text-sm text-forma-white/60 hover:text-forma-white transition-colors duration-200"
+                    className="font-sans text-sm text-forma-white/80 hover:text-forma-white transition-colors duration-200"
                   >
                     {label}
                   </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="font-sans text-sm text-forma-white/60 hover:text-forma-white transition-colors duration-200"
+                    className="font-sans text-sm text-forma-white/80 hover:text-forma-white transition-colors duration-200"
                   >
                     {label}
                   </Link>
@@ -94,7 +94,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/30">
+          <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/55">
             © {new Date().getFullYear()} FORMA Architectural Glass. All rights reserved.
           </p>
           <div className="flex gap-6">
@@ -102,7 +102,7 @@ export default function Footer() {
               <Link
                 key={href}
                 href={href}
-                className="font-mono text-[10px] tracking-label uppercase text-forma-white/30 hover:text-forma-white/60 transition-colors duration-200"
+                className="font-mono text-[10px] tracking-label uppercase text-forma-white/55 hover:text-forma-white/60 transition-colors duration-200"
               >
                 {label}
               </Link>

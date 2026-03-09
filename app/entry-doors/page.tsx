@@ -9,7 +9,14 @@ export const metadata: Metadata = {
   keywords: [
     'modern entry doors', 'pivot door', 'large pivot door', 'steel glass entry door',
     'aluminum entry door', 'architectural front door', 'oversized entry door',
+    'architectural entry door residential',
   ],
+  openGraph: {
+    title: 'Architectural Entry Doors — Pivot, Steel & Glass — FORMA',
+    description: 'Modern architectural entry doors — oversized pivot doors, steel and glass entry systems, and thermally broken aluminium doors.',
+    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'Large pivot entry door on a modern architectural residence' }],
+  },
+  alternates: { canonical: 'https://formaglass.com/entry-doors' },
 }
 
 const Arr = () => (
@@ -124,6 +131,7 @@ export default function EntryDoorsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black/90 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-px"
           style={{ background: 'linear-gradient(to right, #C8A96E, #C8A96E44 40%, transparent 70%)' }} />
+        <div className="absolute top-0 left-0 right-0 h-72 bg-gradient-to-b from-forma-black/90 to-transparent" aria-hidden="true" />
 
         <div className="relative z-10 site-container w-full pb-20 pt-44">
           <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-6">Entry Door Systems</p>
