@@ -47,10 +47,10 @@ export default function ProductHighlights() {
             </h2>
           </div>
           <Link
-            href="/windows"
+            href="/projects"
             className="hidden sm:flex items-center gap-2 font-mono text-[10px] tracking-label uppercase text-forma-muted hover:text-forma-gold transition-colors duration-200"
           >
-            All Products
+            View Projects
             <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true">
               <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>

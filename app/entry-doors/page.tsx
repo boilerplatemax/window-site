@@ -185,7 +185,7 @@ export default function EntryDoorsPage() {
       {/* ── Product Highlights ── */}
       <section className="bg-forma-white" aria-label="Entry door systems">
         {PRODUCTS.map((p, i) => (
-          <div key={p.id}>
+          <div key={p.id} id={p.id}>
             <div className={`site-container py-20 lg:py-28 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center ${i % 2 === 1 ? 'lg:[&>*:first-child]:order-2' : ''}`}>
               <div className="relative overflow-hidden" style={{ minHeight: 'clamp(340px, 40vw, 580px)' }}>
                 <div

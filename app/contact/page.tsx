@@ -53,8 +53,9 @@ const WHY_ITEMS = [
 ]
 
 const SERVICE_AREAS = [
-  'British Columbia', 'Alberta', 'Ontario', 'Washington', 'Oregon',
-  'California', 'Colorado', 'New York', 'Australia & New Zealand',
+  'Greater Toronto Area', 'Mississauga', 'Brampton', 'Vaughan',
+  'Markham', 'Richmond Hill', 'Oakville', 'Burlington',
+  'Hamilton', 'Waterloo / Kitchener', 'Barrie', 'Niagara Region',
 ]
 
 export default function ContactPage() {
@@ -350,7 +351,7 @@ export default function ContactPage() {
                   ))}
                 </div>
                 <p className="font-sans text-forma-muted/60 text-[11px] mt-3 leading-relaxed">
-                  Not listed? Contact us — we regularly supply to new regions for the right project.
+                  Outside this area? Contact us — we work beyond our primary service area for the right project.
                 </p>
               </div>
 
