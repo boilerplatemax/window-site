@@ -5,18 +5,18 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Folding Glass Walls — Bi-Fold & Corner Opening Systems',
   description:
-    'FORMA folding glass wall systems — bi-fold glass walls and corner opening systems. Open entire wall faces to create seamless indoor-outdoor connections. Custom widths, thermally broken aluminium.',
+    'SIGNATURESPAN folding glass wall systems — bi-fold glass walls and corner opening systems. Open entire wall faces to create seamless indoor-outdoor connections. Custom widths, thermally broken aluminium.',
   keywords: [
     'folding glass walls', 'bi fold glass doors', 'glass wall system',
     'accordion glass wall', 'bi fold glass wall residential', 'corner opening system',
     'architectural glass wall', 'indoor outdoor glass system',
   ],
   openGraph: {
-    title: 'Folding Glass Walls — Bi-Fold & Corner Systems — FORMA',
+    title: 'Folding Glass Walls — Bi-Fold & Corner Systems — SIGNATURESPAN',
     description: 'Bi-fold glass walls and corner opening systems — open entire wall faces for seamless indoor-outdoor connection.',
     images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'Bi-fold glass wall fully open to outdoor terrace' }],
   },
-  alternates: { canonical: 'https://formaglass.com/folding-glass-walls' },
+  alternates: { canonical: 'https://signaturespan.com/folding-glass-walls' },
 }
 
 const Arr = () => (
@@ -35,7 +35,7 @@ const PRODUCTS = [
     description:
       'Accordion-style panels that fold and stack to one or both sides of the opening — dissolving an entire wall face when fully open.',
     body:
-      'The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a FORMA bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung — no bottom track to step over — and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.',
+      'The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a SIGNATURESPAN bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung — no bottom track to step over — and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.',
     specs: [
       { k: 'Panel Count',      v: '2 to 8 panels' },
       { k: 'Max Opening Width',v: 'Up to 10,000 mm' },
@@ -55,7 +55,8 @@ const PRODUCTS = [
     description:
       'Two independent runs of folding panels meeting at a corner — when fully open, the corner of the building disappears entirely, creating a panoramic opening in two directions simultaneously.',
     body:
-      'A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels — typically one per wall face — that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. FORMA corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above — not an intermediate post.',
+      'A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels — typically one per wall face — that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. SIGNATURESPAN corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above — not an intermediate post.',
+
     specs: [
       { k: 'Configuration',   v: 'Two independent panel runs' },
       { k: 'Corner Post',     v: 'Concealed or slim exposed' },
@@ -82,14 +83,14 @@ const BENEFITS = [
   {
     num: '03',
     headline: 'Structural engineering included.',
-    body: 'Opening an entire wall face has structural implications. FORMA provides full structural calculations and engineering data for every folding wall system — including corner configurations — to support the architect\'s documentation package and building consent applications.',
+    body: 'Opening an entire wall face has structural implications. SIGNATURESPAN provides full structural calculations and engineering data for every folding wall system — including corner configurations — to support the architect\'s documentation package and building consent applications.',
   },
 ]
 
 const FAQS = [
   {
     q: 'Are bi-fold glass walls weathertight when closed?',
-    a: 'Yes. FORMA bi-fold systems use full-perimeter compression seals and multi-point locking on every panel. They\'re tested to NAFS air infiltration and water resistance standards and are suitable for exposed coastal and cold-climate installations.',
+    a: 'Yes. SIGNATURESPAN bi-fold systems use full-perimeter compression seals and multi-point locking on every panel. They\'re tested to NAFS air infiltration and water resistance standards and are suitable for exposed coastal and cold-climate installations.',
   },
   {
     q: 'How do bi-fold walls perform thermally?',
@@ -101,7 +102,7 @@ const FAQS = [
   },
   {
     q: 'What structural support is needed for a corner opening system?',
-    a: 'Corner systems require a structural header beam capable of spanning the full width of the opening on each wall face — the corner post is not a load-bearing element. FORMA provides beam load calculations as part of the specification package.',
+    a: 'Corner systems require a structural header beam capable of spanning the full width of the opening on each wall face — the corner post is not a load-bearing element. SIGNATURESPAN provides beam load calculations as part of the specification package.',
   },
 ]
 
@@ -163,7 +164,7 @@ export default function FoldingGlassWallsPage() {
                 continues, and the room extends into the garden, terrace, or landscape beyond.
               </p>
               <p className="font-sans text-forma-muted text-base leading-relaxed">
-                This is architecture without compromise. FORMA folding systems are specified for
+                This is architecture without compromise. SIGNATURESPAN folding systems are specified for
                 projects where the relationship between built space and outdoor space is the
                 primary design intention — and where getting that relationship right matters enough
                 to invest in the engineering that makes it work.

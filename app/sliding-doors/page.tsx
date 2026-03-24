@@ -5,18 +5,18 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Sliding Door Systems — Lift & Slide, Multi-Panel, Pocket',
   description:
-    'Large-format sliding glass door systems from FORMA — lift & slide, multi-panel, and concealed pocket doors. Custom widths up to 8m. Thermally broken aluminium, residential and commercial.',
+    'Large-format sliding glass door systems from SIGNATURESPAN — lift & slide, multi-panel, and concealed pocket doors. Custom widths up to 8m. Thermally broken aluminium, residential and commercial.',
   keywords: [
     'sliding glass doors', 'lift and slide doors', 'large sliding glass doors',
     'lift slide door system', 'multi panel sliding doors', 'glass pocket doors',
     'modern sliding glass door system', 'architectural sliding doors',
   ],
   openGraph: {
-    title: 'Sliding Glass Door Systems — Lift & Slide, Multi-Panel — FORMA',
+    title: 'Sliding Glass Door Systems — Lift & Slide, Multi-Panel — SIGNATURESPAN',
     description: 'Large-format sliding glass door systems — lift & slide, multi-panel, and concealed pocket. Custom widths up to 8m.',
     images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'Lift and slide glass door system in modern residence' }],
   },
-  alternates: { canonical: 'https://formaglass.com/sliding-doors' },
+  alternates: { canonical: 'https://signaturespan.com/sliding-doors' },
 }
 
 const Arr = () => (
@@ -35,7 +35,7 @@ const PRODUCTS = [
     description:
       'The benchmark for large-format sliding doors. Panels lift off the sill seal as the handle turns, then travel on hardened steel rollers with fingertip ease — regardless of panel weight.',
     body:
-      'The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage — allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. FORMA lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.',
+      'The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage — allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. SIGNATURESPAN lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.',
     specs: [
       { k: 'Max Panel Width',  v: '3,000 mm per panel' },
       { k: 'Max Panel Height', v: '3,200 mm' },
@@ -56,6 +56,7 @@ const PRODUCTS = [
       'Two, three, or four panels sliding in parallel tracks — designed for wide openings where maximum glass area is required and panels stack neatly out of the way.',
     body:
       'Multi-panel sliding systems allow a single wide opening to be divided across several lighter, more manageable panels that slide and stack at one or both ends. This makes them ideal for wide indoor-outdoor transitions in open-plan living areas, restaurant terraces, and commercial hospitality spaces. Panels can stack internally to one side, externally, or into a recessed pocket. A flush-threshold option is available for seamless indoor-outdoor continuity.',
+
     specs: [
       { k: 'Panel Count',      v: '2, 3, or 4 panels' },
       { k: 'Max Total Width',  v: 'Up to 10,000 mm' },
@@ -75,7 +76,7 @@ const PRODUCTS = [
     description:
       'Panels slide entirely into a concealed wall cavity — leaving no visible frame, no stacked glass, nothing but an open threshold when the doors are retracted.',
     body:
-      'A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides — the glass has simply disappeared. FORMA pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.',
+      'A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides — the glass has simply disappeared. SIGNATURESPAN pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.',
     specs: [
       { k: 'Pocket Type',      v: 'Single or Double (opposing)' },
       { k: 'Max Panel Width',  v: '1,800 mm per panel' },
@@ -97,7 +98,7 @@ const BENEFITS = [
   {
     num: '02',
     headline: 'Performance in all seasons.',
-    body: 'Large glass panels create large potential for heat loss. FORMA sliding systems use thermally broken aluminium profiles, multi-point locking hardware, and high-specification glass packages to achieve U-values suitable for cold-climate residential construction without compromising the view.',
+    body: 'Large glass panels create large potential for heat loss. SIGNATURESPAN sliding systems use thermally broken aluminium profiles, multi-point locking hardware, and high-specification glass packages to achieve U-values suitable for cold-climate residential construction without compromising the view.',
   },
   {
     num: '03',
@@ -174,7 +175,7 @@ export default function SlidingDoorsPage() {
                 perform in all weather, and a threshold that doesn't interrupt the floor plane.
               </p>
               <p className="font-sans text-forma-muted text-base leading-relaxed">
-                FORMA sliding systems are selected and specified for each project individually.
+                SIGNATURESPAN sliding systems are selected and specified for each project individually.
                 We don't offer one-size-fits-all configurations — we offer the right system
                 for your opening, your climate, and your architecture.
               </p>

@@ -48,9 +48,9 @@ export default function Navbar() {
           <Link
             href="/"
             className="font-display text-forma-white text-xl tracking-[0.28em] uppercase hover:text-forma-gold transition-colors duration-300"
-            aria-label="FORMA Architectural Glass — Home"
+            aria-label="SIGNATURESPAN — Home"
           >
-            FORMA
+            SIGNATURESPAN
           </Link>
 
           {/* Desktop nav links */}

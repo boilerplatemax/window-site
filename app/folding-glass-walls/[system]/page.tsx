@@ -26,7 +26,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Bi-Fold Glass Wall System',
     tag: 'Most Popular',
     description: 'Accordion-style panels that fold and stack to one or both sides of the opening — dissolving an entire wall face when fully open.',
-    body: 'The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a FORMA bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung — no bottom track to step over — and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.',
+    body: 'The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a SIGNATURESPAN bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung — no bottom track to step over — and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.',
     specs: [
       { k: 'Panel Count',       v: '2 to 8 panels' },
       { k: 'Max Opening Width', v: 'Up to 10,000 mm' },
@@ -48,7 +48,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Corner Opening System',
     tag: 'Architect Favourite',
     description: 'Two independent runs of folding panels meeting at a corner — when fully open, the corner of the building disappears entirely, creating a panoramic opening in two directions simultaneously.',
-    body: 'A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels — typically one per wall face — that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. FORMA corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above — not an intermediate post.',
+    body: 'A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels — typically one per wall face — that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. SIGNATURESPAN corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above — not an intermediate post.',
     specs: [
       { k: 'Configuration',   v: 'Two independent panel runs' },
       { k: 'Corner Post',     v: 'Concealed or slim exposed' },
@@ -80,11 +80,11 @@ export async function generateMetadata({ params }: { params: { system: string } 
     description: data.description,
     keywords: data.keywords,
     openGraph: {
-      title: `${data.name} — FORMA Architectural Glass`,
+      title: `${data.name} — SIGNATURESPAN INC.`,
       description: data.description,
       images: [{ url: data.image, alt: data.imageAlt }],
     },
-    alternates: { canonical: `https://formaglass.com/folding-glass-walls/${params.system}` },
+    alternates: { canonical: `https://signaturespan.com/folding-glass-walls/${params.system}` },
   }
 }
 

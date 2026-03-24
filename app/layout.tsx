@@ -7,48 +7,48 @@ import Footer from '@/components/Footer'
 // CSS custom properties --font-cormorant, --font-dm-sans, --font-dm-mono are defined there
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://formaglass.com'),
+  metadataBase: new URL('https://signaturespan.com'),
   title: {
-    template: '%s | FORMA Architectural Glass',
-    default: 'FORMA Architectural Glass — Large Format Windows & Glass Systems',
+    template: '%s | SIGNATURESPAN INC.',
+    default: 'SIGNATURESPAN — Large Format Windows & Glass Systems',
   },
   description:
-    'FORMA supplies large-format architectural windows, sliding glass door systems, folding glass walls, and entry doors — custom-specified for residential and commercial projects across Canada and the US.',
+    'SIGNATURESPAN supplies large-format architectural windows, sliding glass door systems, folding glass walls, and entry doors — custom-specified for residential and commercial projects across Canada and the US.',
   keywords: [
     'architectural windows', 'large format windows', 'modern aluminum windows',
     'sliding glass doors', 'lift and slide doors', 'folding glass walls',
     'floor to ceiling windows', 'corner glass systems', 'pivot doors',
     'custom glass systems', 'architectural glazing', 'thermally broken aluminum windows',
   ],
-  authors: [{ name: 'FORMA Architectural Glass', url: 'https://formaglass.com' }],
+  authors: [{ name: 'SIGNATURESPAN INC.', url: 'https://signaturespan.com' }],
   openGraph: {
     type: 'website',
     locale: 'en_CA',
-    siteName: 'FORMA Architectural Glass',
-    title: 'FORMA Architectural Glass — Large Format Windows & Glass Systems',
+    siteName: 'SIGNATURESPAN INC.',
+    title: 'SIGNATURESPAN — Large Format Windows & Glass Systems',
     description:
       'Custom large-format windows, sliding glass doors, folding glass walls, and entry doors for residential and commercial projects.',
-    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'FORMA Architectural Glass — modern home with floor-to-ceiling windows' }],
+    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'SIGNATURESPAN — modern home with floor-to-ceiling windows' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FORMA Architectural Glass — Large Format Windows & Glass Systems',
+    title: 'SIGNATURESPAN — Large Format Windows & Glass Systems',
     description:
       'Custom large-format windows, sliding glass doors, folding glass walls, and entry doors.',
     images: ['/images/hero.jpg'],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
-  alternates: { canonical: 'https://formaglass.com' },
+  alternates: { canonical: 'https://signaturespan.com' },
 }
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'FORMA Architectural Glass',
+  name: 'SIGNATURESPAN INC.',
   description: 'Supplier of large-format architectural windows, sliding glass door systems, folding glass walls, and entry doors for residential and commercial projects.',
-  url: 'https://formaglass.com',
-  telephone: '+16045550192',
-  email: 'hello@formaglass.com',
+  url: 'https://signaturespan.com',
+  telephone: '+15198974573',
+  email: 'octavius@signaturespan.com',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Vancouver',
