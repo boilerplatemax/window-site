@@ -4,18 +4,18 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'The Caledon House — Lift & Slide Windows, Corner Glass',
   description:
-    'Full glazing package for a private estate in Caledon, Ontario — lift & slide door systems, floor-to-ceiling windows, and corner glass supplied and specified by FORMA Architectural Glass.',
+    'Full glazing package for a private estate in Caledon, Ontario — lift & slide door systems, floor-to-ceiling windows, and corner glass supplied and specified by SIGNATURESPAN INC.',
   keywords: [
     'Caledon house architectural glass', 'lift and slide doors Ontario',
     'floor to ceiling windows residential', 'corner glass system',
     'architectural windows Caledon', 'large format windows Ontario',
   ],
   openGraph: {
-    title: 'The Caledon House — FORMA Architectural Glass',
+    title: 'The Caledon House — SIGNATURESPAN INC.',
     description: 'Full glazing package for a private estate in Caledon, Ontario — lift & slide systems, floor-to-ceiling windows, and corner glass.',
     images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House exterior — floor-to-ceiling windows and lift & slide doors' }],
   },
-  alternates: { canonical: 'https://formaglass.com/projects/caledon-house' },
+  alternates: { canonical: 'https://signaturespan.com/projects/caledon-house' },
 }
 
 const Arr = () => (
@@ -54,7 +54,7 @@ export default function CaledonHousePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/caledon-house-exterior-1.jpg')" }}
           role="img"
-          aria-label="The Caledon House — rear elevation with FORMA lift & slide glass wall systems"
+          aria-label="The Caledon House — rear elevation with SIGNATURESPAN lift & slide glass wall systems"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-forma-black/90 via-forma-black/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/20 to-transparent" />
@@ -105,7 +105,7 @@ export default function CaledonHousePage() {
                   the landscape.
                 </p>
                 <p>
-                  FORMA supplied and specified a full glazing package across the main living
+                  SIGNATURESPAN supplied and specified a full glazing package across the main living
                   wing. Three lift & slide door systems open the kitchen, dining, and living
                   areas to a continuous rear terrace, with panels travelling on hardened steel
                   rollers to the full 3,200mm width of each bay.

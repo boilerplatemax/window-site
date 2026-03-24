@@ -8,13 +8,13 @@ const STATS = [
 const TESTIMONIALS = [
   {
     quote:
-      "FORMA's technical team understood our specification before we finished explaining it. Product arrived on schedule, damage-free, and sized to the millimetre. We're specifying them on our next four projects.",
+      "SIGNATURESPAN's technical team understood our specification before we finished explaining it. Product arrived on schedule, damage-free, and sized to the millimetre. We're specifying them on our next four projects.",
     name: 'Principal Architect',
     company: 'Studio Eleven Architecture, Vancouver BC',
   },
   {
     quote:
-      "We've sourced from a lot of suppliers. FORMA is the first one we actually call back.",
+      "We've sourced from a lot of suppliers. SIGNATURESPAN is the first one we actually call back.",
     name: 'Project Manager',
     company: 'Northfield Build Group',
   },

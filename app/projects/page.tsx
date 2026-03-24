@@ -5,14 +5,14 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Projects & Inspiration — Architectural Glass Installations',
   description:
-    'Completed FORMA projects — residential and commercial glass installations across Ontario and the Pacific Northwest, featuring large-format windows, lift & slide systems, folding glass walls, and architectural entry doors.',
+    'Completed SIGNATURESPAN projects — residential and commercial glass installations across Ontario and the Pacific Northwest, featuring large-format windows, lift & slide systems, folding glass walls, and architectural entry doors.',
   keywords: [
     'architectural glass projects Ontario', 'modern window installation residential',
     'glass wall project Canada', 'Caledon house architectural windows',
     'Mississauga modern residence glass doors', 'large format windows installation',
   ],
   openGraph: {
-    title: 'Projects & Inspiration — FORMA Architectural Glass',
+    title: 'Projects & Inspiration — SIGNATURESPAN INC.',
     description: 'Custom architectural glass installations for residential and commercial projects across Canada and the Pacific Northwest.',
     images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House — architectural glass project' }],
   },
@@ -26,7 +26,7 @@ const FEATURED = {
   architect: 'Custom Build',
   products: 'Lift & Slide · Floor-to-Ceiling Windows · Corner Glass',
   description:
-    'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. FORMA supplied a full glazing package across the main living spaces — lift & slide systems opening onto the rear terrace, corner glass connecting the dining room to two aspects of the landscape, and floor-to-ceiling windows running the full width of the primary bedroom wing.',
+    'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. SIGNATURESPAN supplied a full glazing package across the main living spaces — lift & slide systems opening onto the rear terrace, corner glass connecting the dining room to two aspects of the landscape, and floor-to-ceiling windows running the full width of the primary bedroom wing.',
   image: '/images/caledon-house-exterior-2.jpg',
   imageFallback: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85',
 }
@@ -254,7 +254,7 @@ export default function ProjectsPage() {
 
       <CTASection
         headline={"Start your\nproject."}
-        subheadline="Join the architects, builders, and homeowners who trust FORMA to supply the glass systems that define their projects."
+        subheadline="Join the architects, builders, and homeowners who trust SIGNATURESPAN to supply the glass systems that define their projects."
         dark={false}
         primaryLabel="Request a Quote"
         secondaryLabel="Contact the Team"

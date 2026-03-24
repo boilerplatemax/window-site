@@ -26,7 +26,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Pivot Entry Doors',
     tag: 'Statement Product',
     description: 'A pivot door rotates on a floor-to-ceiling axis rather than side-hung hinges — allowing panels up to 1,400mm wide and 3,500mm tall to open with effortless precision.',
-    body: "The pivot door is one of the few product categories where the mechanism itself is the design statement. The door doesn't swing on a hinge at its edge — it rotates on a central or off-centre axis, pivoting from floor plate to overhead carrier with perfect balance regardless of panel size or weight. At scale, pivot doors are architecturally transformative: a 1,200mm wide, 3,200mm tall glass and aluminium panel opening in a single smooth rotation redefines what an entrance feels like. FORMA pivot doors are available with glass infill panels, solid aluminium, or a combination of both — in any RAL colour with matching or contrasting hardware.",
+    body: "The pivot door is one of the few product categories where the mechanism itself is the design statement. The door doesn't swing on a hinge at its edge — it rotates on a central or off-centre axis, pivoting from floor plate to overhead carrier with perfect balance regardless of panel size or weight. At scale, pivot doors are architecturally transformative: a 1,200mm wide, 3,200mm tall glass and aluminium panel opening in a single smooth rotation redefines what an entrance feels like. SIGNATURESPAN pivot doors are available with glass infill panels, solid aluminium, or a combination of both — in any RAL colour with matching or contrasting hardware.",
     specs: [
       { k: 'Max Width',       v: 'Up to 1,400 mm' },
       { k: 'Max Height',      v: 'Up to 3,500 mm' },
@@ -48,7 +48,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Steel & Glass Entry',
     tag: null,
     description: 'Cold-rolled steel profiles with architectural glass infills — the industrial-modern aesthetic executed with precision engineering and long-term durability.',
-    body: 'Steel and glass entry doors appeal to a particular architectural sensibility: the honest expression of industrial materials, refined to a residential or commercial standard. Cold-rolled steel profiles are inherently slimmer than aluminium equivalents at the same structural performance, making them ideal where sight lines matter as much as the glass itself. FORMA steel & glass entry systems are powder coated in any RAL colour, with the option for contrasting interior and exterior finishes. Side panels, transoms, and full-height sidelights integrate with the same profile system for a unified entrance composition.',
+    body: 'Steel and glass entry doors appeal to a particular architectural sensibility: the honest expression of industrial materials, refined to a residential or commercial standard. Cold-rolled steel profiles are inherently slimmer than aluminium equivalents at the same structural performance, making them ideal where sight lines matter as much as the glass itself. SIGNATURESPAN steel & glass entry systems are powder coated in any RAL colour, with the option for contrasting interior and exterior finishes. Side panels, transoms, and full-height sidelights integrate with the same profile system for a unified entrance composition.',
     specs: [
       { k: 'Frame Material',  v: 'Cold-rolled steel' },
       { k: 'Profile Depth',   v: 'From 40 mm — slimmer than equivalent aluminium' },
@@ -70,7 +70,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Aluminum Entry Doors',
     tag: null,
     description: 'Thermally broken aluminium entry doors for high-traffic residential entrances and commercial applications — precision hardware, low maintenance, long performance life.',
-    body: 'Aluminium entry doors are the workhorse of the modern entry door category: dimensionally stable, corrosion-resistant, available in any colour, and capable of accommodating large glass areas without compromising structural performance. FORMA aluminium entry doors are manufactured from thermally broken profiles — the same profile system used in our window range — ensuring consistent thermal performance between door and adjacent glazing. Commercial-grade multipoint locking is standard, with options for access control, panic hardware, and motorised operators for commercial entrances.',
+    body: 'Aluminium entry doors are the workhorse of the modern entry door category: dimensionally stable, corrosion-resistant, available in any colour, and capable of accommodating large glass areas without compromising structural performance. SIGNATURESPAN aluminium entry doors are manufactured from thermally broken profiles — the same profile system used in our window range — ensuring consistent thermal performance between door and adjacent glazing. Commercial-grade multipoint locking is standard, with options for access control, panic hardware, and motorised operators for commercial entrances.',
     specs: [
       { k: 'Frame Material',  v: 'Thermally broken 6063-T5 aluminium alloy' },
       { k: 'Max Door Width',  v: 'Up to 1,200 mm single leaf · 2,400 mm double' },
@@ -102,11 +102,11 @@ export async function generateMetadata({ params }: { params: { system: string } 
     description: data.description,
     keywords: data.keywords,
     openGraph: {
-      title: `${data.name} — FORMA Architectural Glass`,
+      title: `${data.name} — SIGNATURESPAN INC.`,
       description: data.description,
       images: [{ url: data.image, alt: data.imageAlt }],
     },
-    alternates: { canonical: `https://formaglass.com/entry-doors/${params.system}` },
+    alternates: { canonical: `https://signaturespan.com/entry-doors/${params.system}` },
   }
 }
 

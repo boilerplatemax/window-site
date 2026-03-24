@@ -9,14 +9,14 @@ import TrustSection from '@/components/TrustSection'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'FORMA Architectural Glass — Light. Space. Structure.',
+  title: 'SIGNATURESPAN — Light. Space. Structure.',
   description:
     'Large-format windows, sliding glass systems, folding glass walls, and architectural entry doors for residential and commercial projects across North America.',
   openGraph: {
-    title: 'FORMA Architectural Glass — Light. Space. Structure.',
+    title: 'SIGNATURESPAN — Light. Space. Structure.',
     description:
       'Large-format windows, sliding glass systems, folding glass walls, and architectural entry doors.',
-    url: 'https://formaglass.com',
+    url: 'https://signaturespan.com',
   },
 }
 

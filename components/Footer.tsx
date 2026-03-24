@@ -29,25 +29,29 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <p className="font-display text-2xl tracking-[0.28em] uppercase text-forma-white mb-4">
-              FORMA
+              SIGNATURESPAN
             </p>
             <p className="font-sans text-forma-white/70 text-sm leading-relaxed max-w-xs mb-8">
               Large-format windows, sliding systems, folding glass walls, and architectural
               entry doors — engineered for residential and commercial projects.
             </p>
             <p className="section-label-light mb-2">Contact</p>
-            <a
-              href="mailto:hello@formaglass.com"
-              className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-1"
-            >
-              hello@formaglass.com
-            </a>
-            <a
-              href="tel:+16045550192"
-              className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block"
-            >
-              +1 (604) 555-0192
-            </a>
+            <div className="space-y-3">
+              <div>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Octavius Wojciechowski — VP of Sales</p>
+                <a href="mailto:octavius@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-0.5">octavius@signaturespan.com</a>
+                <a href="tel:+15198974573" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">+1 (519) 897-4573</a>
+              </div>
+              <div>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Lucjan Janeczek — VP of Operations</p>
+                <a href="mailto:lucjan@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-0.5">lucjan@signaturespan.com</a>
+                <a href="tel:+14168917555" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">+1 (416) 891-7555</a>
+              </div>
+              <div>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Soheil Fouladi — VP of Logistics/Finance</p>
+                <a href="mailto:soheil@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">soheil@signaturespan.com</a>
+              </div>
+            </div>
           </div>
 
           {/* Products */}
@@ -95,7 +99,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/55">
-            © {new Date().getFullYear()} FORMA Architectural Glass. All rights reserved.
+            © {new Date().getFullYear()} SIGNATURESPAN INC. All rights reserved.
           </p>
           <div className="flex gap-6">
             {LEGAL.map(({ href, label }) => (

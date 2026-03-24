@@ -26,7 +26,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Lift & Slide System',
     tag: 'Most Specified',
     description: 'The benchmark for large-format sliding doors. Panels lift off the sill seal as the handle turns, then travel on hardened steel rollers with fingertip ease — regardless of panel weight.',
-    body: 'The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage — allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. FORMA lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.',
+    body: 'The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage — allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. SIGNATURESPAN lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.',
     specs: [
       { k: 'Max Panel Width',  v: '3,000 mm per panel' },
       { k: 'Max Panel Height', v: '3,200 mm' },
@@ -70,7 +70,7 @@ const SYSTEMS: Record<string, SystemData> = {
     name: 'Pocket Sliding Doors',
     tag: 'Architect Favourite',
     description: 'Panels slide entirely into a concealed wall cavity — leaving no visible frame, no stacked glass, nothing but an open threshold when the doors are retracted.',
-    body: 'A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides — the glass has simply disappeared. FORMA pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.',
+    body: 'A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides — the glass has simply disappeared. SIGNATURESPAN pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.',
     specs: [
       { k: 'Pocket Type',      v: 'Single or Double (opposing)' },
       { k: 'Max Panel Width',  v: '1,800 mm per panel' },
@@ -102,11 +102,11 @@ export async function generateMetadata({ params }: { params: { system: string } 
     description: data.description,
     keywords: data.keywords,
     openGraph: {
-      title: `${data.name} — FORMA Architectural Glass`,
+      title: `${data.name} — SIGNATURESPAN INC.`,
       description: data.description,
       images: [{ url: data.image, alt: data.imageAlt }],
     },
-    alternates: { canonical: `https://formaglass.com/sliding-doors/${params.system}` },
+    alternates: { canonical: `https://signaturespan.com/sliding-doors/${params.system}` },
   }
 }
 

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Project Details Coming Soon',
-  description: 'Full project documentation and photography for this FORMA Architectural Glass installation will be available soon.',
+  description: 'Full project documentation and photography for this SIGNATURESPAN INC. installation will be available soon.',
   robots: { index: false, follow: false },
 }
 

@@ -43,7 +43,7 @@ const WHY_ITEMS = [
   {
     num: '02',
     title: 'Factory-direct pricing',
-    body: 'No distributor markups. FORMA supplies direct, which means better pricing and a single point of contact from quote to delivery.',
+    body: 'No distributor markups. SIGNATURESPAN supplies direct, which means better pricing and a single point of contact from quote to delivery.',
   },
   {
     num: '03',
@@ -122,7 +122,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* ── Why FORMA strip ── */}
+      {/* ── Why SIGNATURESPAN strip ── */}
       <div className="bg-forma-black border-y border-forma-white/8">
         <div className="site-container py-10">
           <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-forma-white/8">
@@ -305,15 +305,36 @@ export default function ContactPage() {
               <div>
                 <p className="section-label mb-4">Direct Contact</p>
                 <p className="font-sans text-forma-muted text-sm leading-relaxed mb-4">
-                  Prefer to speak with someone directly? Our specification team is available
+                  Prefer to speak with someone directly? Our team is available
                   Monday–Friday during business hours.
                 </p>
-                <a href="tel:+16045550192" className="block font-display text-forma-text text-xl font-light hover:text-forma-gold transition-colors duration-200 mb-1">
-                  +1 (604) 555-0192
-                </a>
-                <a href="mailto:hello@formaglass.com" className="block font-sans text-forma-muted text-sm hover:text-forma-gold transition-colors duration-200">
-                  hello@formaglass.com
-                </a>
+
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Octavius Wojciechowski — VP of Sales</p>
+                    <a href="tel:+15198974573" className="block font-display text-forma-text text-lg font-light hover:text-forma-gold transition-colors duration-200 mb-0.5">
+                      +1 (519) 897-4573
+                    </a>
+                    <a href="mailto:octavius@signaturespan.com" className="block font-sans text-forma-muted text-sm hover:text-forma-gold transition-colors duration-200">
+                      octavius@signaturespan.com
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Lucjan Janeczek — VP of Operations</p>
+                    <a href="tel:+14168917555" className="block font-display text-forma-text text-lg font-light hover:text-forma-gold transition-colors duration-200 mb-0.5">
+                      +1 (416) 891-7555
+                    </a>
+                    <a href="mailto:lucjan@signaturespan.com" className="block font-sans text-forma-muted text-sm hover:text-forma-gold transition-colors duration-200">
+                      lucjan@signaturespan.com
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Soheil Fouladi — VP of Logistics/Finance</p>
+                    <a href="mailto:soheil@signaturespan.com" className="block font-sans text-forma-muted text-sm hover:text-forma-gold transition-colors duration-200">
+                      soheil@signaturespan.com
+                    </a>
+                  </div>
+                </div>
               </div>
 
               {/* Office hours */}

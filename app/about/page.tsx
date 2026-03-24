@@ -4,7 +4,7 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'About — Architectural Glass Supplier',
   description:
-    'FORMA Architectural Glass is a direct-supply specialist in large-format windows, sliding systems, folding glass walls, and entry doors for residential and commercial projects.',
+    'SIGNATURESPAN INC. is a direct-supply specialist in large-format windows, sliding systems, folding glass walls, and entry doors for residential and commercial projects.',
   keywords: ['architectural glass supplier', 'custom window door company', 'glass wall manufacturer'],
 }
 
@@ -47,7 +47,7 @@ const VALUES = [
   },
   {
     headline: 'Architecture deserves better.',
-    body: 'The glazing industry has historically under-served architects. FORMA was built to fix that — with real technical depth, proper documentation, and products that match the brief.',
+    body: 'The glazing industry has historically under-served architects. SIGNATURESPAN was built to fix that — with real technical depth, proper documentation, and products that match the brief.',
   },
 ]
 
@@ -69,7 +69,7 @@ export default function AboutPage() {
           <h1 className="font-display text-forma-white text-5xl sm:text-6xl lg:text-7xl font-light leading-tight max-w-2xl">
             About
             <br />
-            <em>FORMA</em>
+            <em>SIGNATURESPAN</em>
           </h1>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 font-sans text-forma-muted text-base leading-relaxed">
                 <p>
-                  FORMA was founded by a team with backgrounds in architecture and construction
+                  SIGNATURESPAN was founded by a team with backgrounds in architecture and construction
                   who were frustrated by the same problem: extraordinary buildings being let down
                   by ordinary glazing.
                 </p>
@@ -97,7 +97,7 @@ export default function AboutPage() {
                   specifications alone.
                 </p>
                 <p>
-                  We built FORMA to be the supplier we always wished existed — technically
+                  We built SIGNATURESPAN to be the supplier we always wished existed — technically
                   fluent, direct to deal with, and obsessive about getting the specification right.
                 </p>
                 <p>
