@@ -4,18 +4,18 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'The Mississauga Residence — Bi-Fold Glass Walls, Pivot Entry Door',
   description:
-    'Bi-fold glass walls, picture windows, and a 3-metre pivot entry door for a contemporary ravine-lot residence in Mississauga, Ontario — supplied and specified by FORMA Architectural Glass.',
+    'Bi-fold glass walls, picture windows, and a 3-metre pivot entry door for a contemporary ravine-lot residence in Mississauga, Ontario — supplied and specified by SIGNATURESPAN INC.',
   keywords: [
     'Mississauga architectural glass', 'bi fold glass wall Ontario', 'pivot entry door residential',
     'modern windows Mississauga', 'large format windows Greater Toronto Area',
     'glass wall ravine home',
   ],
   openGraph: {
-    title: 'The Mississauga Residence — FORMA Architectural Glass',
+    title: 'The Mississauga Residence — SIGNATURESPAN INC.',
     description: 'Bi-fold glass walls, picture windows, and a 3-metre pivot entry door for a ravine-lot residence in Mississauga, Ontario.',
     images: [{ url: '/images/mississauga-house-hero.jpg', width: 1800, height: 1000, alt: 'The Mississauga Residence — bi-fold glass walls open to ravine deck' }],
   },
-  alternates: { canonical: 'https://formaglass.com/projects/mississauga-house' },
+  alternates: { canonical: 'https://signaturespan.com/projects/mississauga-house' },
 }
 
 const Arr = () => (
@@ -103,7 +103,7 @@ export default function MississaugaHousePage() {
                   ravine in every season — from summer entertaining to winter light.
                 </p>
                 <p>
-                  FORMA supplied a 7,600mm bi-fold glass wall system across the rear of the
+                  SIGNATURESPAN supplied a 7,600mm bi-fold glass wall system across the rear of the
                   main living level — six top-hung panels that compress into a stack at the
                   south end of the opening. When fully open, the living and dining rooms
                   become continuous with a cantilevered deck, with no threshold to step over.

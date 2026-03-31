@@ -2,7 +2,7 @@ const VALUE_PROPS = [
   {
     num: '01',
     headline: 'Made to your opening.',
-    body: 'Standard sizes are a starting point. Every FORMA system is specified to your exact opening — width, height, sill depth, and profile finish.',
+    body: 'Standard sizes are a starting point. Every SIGNATURESPAN system is specified to your exact opening — width, height, sill depth, and profile finish.',
   },
   {
     num: '02',
@@ -54,7 +54,7 @@ export default function FeatureSection({ variant }: Props) {
             {/* Right — supporting copy + attribution */}
             <div className="lg:pt-16 mt-12 lg:mt-0">
               <p className="font-sans text-forma-muted text-base sm:text-lg leading-relaxed mb-10">
-                FORMA engineers large-format glass systems for architects, builders,
+                SIGNATURESPAN engineers large-format glass systems for architects, builders,
                 and homeowners who understand that light is the material — and that
                 every opening should be deliberate.
               </p>
@@ -66,7 +66,7 @@ export default function FeatureSection({ variant }: Props) {
               </p>
 
               <p className="font-mono text-[10px] tracking-label uppercase text-forma-gold">
-                — FORMA Architectural Glass
+                — SIGNATURESPAN INC.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function FeatureSection({ variant }: Props) {
 
   /* ── Values variant — numbered 4-column, dark bg ── */
   return (
-    <section className="bg-forma-black" aria-label="Why FORMA">
+    <section className="bg-forma-black" aria-label="Why SIGNATURESPAN">
       {/* Top border full width */}
       <div className="w-full h-px bg-forma-white/8" />
 
@@ -89,7 +89,7 @@ export default function FeatureSection({ variant }: Props) {
         {/* Header row */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20 lg:mb-24">
           <div>
-            <p className="section-label-light mb-5">Why FORMA</p>
+            <p className="section-label-light mb-5">Why SIGNATURESPAN</p>
             <h2 className="font-display text-forma-white font-light text-display-md">
               Built for the demands
               <br />

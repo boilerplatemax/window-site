@@ -6,7 +6,7 @@ const PROJECT = {
   type:        'Private Residence',
   architect:   'Custom Build',
   products:    'Lift & Slide · Floor-to-Ceiling Windows · Corner Glass',
-  description: 'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. FORMA supplied lift & slide systems, corner glass, and floor-to-ceiling windows across the main living wing — all custom-specified to the architect\'s exact dimensions.',
+  description: 'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. SIGNATURESPAN supplied lift & slide systems, corner glass, and floor-to-ceiling windows across the main living wing — all custom-specified to the architect\'s exact dimensions.',
   heroImage:   '/images/caledon-house-exterior-2.jpg',
   detailImg1:  '/images/caledon-house-interrior-1.jpg',
   detailImg2:  '/images/caledon-house-backyard-1.jpg',
