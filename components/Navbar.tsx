@@ -47,7 +47,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="font-display text-forma-white text-xl tracking-[0.28em] uppercase hover:text-forma-gold transition-colors duration-300"
+            className="font-display text-forma-gold text-xl tracking-[0.28em] uppercase hover:text-forma-gold-dark transition-colors duration-300"
             aria-label="FORMA Architectural Glass — Home"
           >
             FORMA

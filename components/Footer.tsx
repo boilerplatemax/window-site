@@ -28,7 +28,7 @@ export default function Footer() {
 
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <p className="font-display text-2xl tracking-[0.28em] uppercase text-forma-white mb-4">
+            <p className="font-display text-2xl tracking-[0.28em] uppercase text-forma-gold mb-4">
               FORMA
             </p>
             <p className="font-sans text-forma-white/70 text-sm leading-relaxed max-w-xs mb-8">
