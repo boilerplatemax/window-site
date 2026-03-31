@@ -28,7 +28,7 @@ export default function Footer() {
 
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <p className="font-display text-2xl tracking-[0.28em] uppercase text-forma-white mb-4">
+            <p className="font-display text-2xl tracking-[0.28em] uppercase text-forma-gold mb-4">
               SIGNATURESPAN
             </p>
             <p className="font-sans text-forma-white/70 text-sm leading-relaxed max-w-xs mb-8">
@@ -46,10 +46,6 @@ export default function Footer() {
                 <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Lucjan Janeczek — VP of Operations</p>
                 <a href="mailto:lucjan@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-0.5">lucjan@signaturespan.com</a>
                 <a href="tel:+14168917555" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">+1 (416) 891-7555</a>
-              </div>
-              <div>
-                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Soheil Fouladi — VP of Logistics/Finance</p>
-                <a href="mailto:soheil@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">soheil@signaturespan.com</a>
               </div>
             </div>
           </div>

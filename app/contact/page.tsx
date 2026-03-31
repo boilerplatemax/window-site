@@ -70,10 +70,19 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
-    // Placeholder: replace with real form endpoint (Formspree, Resend, etc.)
-    await new Promise(r => setTimeout(r, 800))
-    setLoading(false)
-    setSubmitted(true)
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (!res.ok) throw new Error('Failed to send')
+      setSubmitted(true)
+    } catch {
+      alert('Something went wrong. Please try again or email us directly.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -228,7 +237,7 @@ export default function ContactPage() {
                           required
                           value={form.location}
                           onChange={handleChange}
-                          placeholder="Vancouver, BC"
+                          placeholder="Mississauga, ON"
                           className="w-full border border-forma-divider bg-transparent px-4 py-3 font-sans text-sm text-forma-text placeholder:text-forma-muted/40 focus:outline-none focus:border-forma-gold transition-colors duration-200"
                         />
                       </label>
@@ -326,12 +335,6 @@ export default function ContactPage() {
                     </a>
                     <a href="mailto:lucjan@signaturespan.com" className="block font-sans text-forma-muted text-sm hover:text-forma-gold transition-colors duration-200">
                       lucjan@signaturespan.com
-                    </a>
-                  </div>
-                  <div>
-                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Soheil Fouladi — VP of Logistics/Finance</p>
-                    <a href="mailto:soheil@signaturespan.com" className="block font-sans text-forma-muted text-sm hover:text-forma-gold transition-colors duration-200">
-                      soheil@signaturespan.com
                     </a>
                   </div>
                 </div>
