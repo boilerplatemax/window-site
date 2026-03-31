@@ -34,7 +34,7 @@ export async function POST(request: Request) {
   try {
     await transporter.sendMail({
       from: `"SIGNATURESPAN Website" <${process.env.SMTP_USER}>`,
-      to: 'octavius@signaturespan.com',
+      to: 'lucjan@signaturespan.com',
       replyTo: email,
       subject: `Quote Request from ${name} — ${projectType}`,
       html,
