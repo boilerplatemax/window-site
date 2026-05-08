@@ -44,7 +44,7 @@ const PRODUCTS = [
       { k: 'Thermal Break',    v: 'Yes — Class A Aluminium Profile' },
       { k: 'Glazing',          v: 'Double or Triple Glazed · Low-E' },
     ],
-    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/sliding-doors-Lift & Slide System.png',
   },
   {
     id: 'multi-panel',
@@ -65,7 +65,7 @@ const PRODUCTS = [
       { k: 'Threshold',        v: 'Low-profile or flush' },
       { k: 'Applications',     v: 'Residential · Commercial · Hospitality' },
     ],
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/sliding-doors-Multi-Panel Sliding.jpeg',
   },
   {
     id: 'pocket-doors',
@@ -85,7 +85,7 @@ const PRODUCTS = [
       { k: 'Frame Kits',       v: 'Timber · Steel · Concrete integration' },
       { k: 'Glazing',          v: 'Double Glazed · Low-E · Acoustic options' },
     ],
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/sliding-doors-Pocket Sliding Doors.webp',
   },
 ]
 
@@ -126,7 +126,7 @@ export default function SlidingDoorsPage() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1920&q=80')" }}
+          style={{ backgroundImage: "url('/images/sliding-doors-Sliding Systems.webp')" }}
           role="img"
           aria-label="Large lift and slide door system in a modern home"
         />

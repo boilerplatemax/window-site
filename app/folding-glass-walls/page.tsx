@@ -44,7 +44,7 @@ const PRODUCTS = [
       { k: 'Track',            v: 'Top-hung — no bottom guide rail' },
       { k: 'Thermal Break',    v: 'Yes — Class A Aluminium Profile' },
     ],
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/folding-Bi-Fold Glass Wall System.webp',
   },
   {
     id: 'corner',
@@ -65,7 +65,7 @@ const PRODUCTS = [
       { k: 'Max Height',      v: '3,000 mm per panel' },
       { k: 'Finish Options',  v: 'Powder Coat · Anodised · RAL · Dual-colour' },
     ],
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/folding-Corner Opening System.jpeg',
   },
 ]
 

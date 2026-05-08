@@ -44,7 +44,7 @@ const PRODUCTS = [
       { k: 'Locking',         v: 'Integrated multipoint — flush lever or pull bar' },
       { k: 'Finish',          v: 'Any RAL powder coat · Anodised · Natural Aluminium' },
     ],
-    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/entry-doors-Pivot Entry Doors.webp',
   },
   {
     id: 'steel-glass',
@@ -64,7 +64,7 @@ const PRODUCTS = [
       { k: 'Hardware',        v: 'Surface-mounted or flush — custom options' },
       { k: 'Finish',          v: 'Any RAL · Dual-colour interior/exterior available' },
     ],
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/entry-doors-Steel & Glass Entry.jpeg',
   },
   {
     id: 'aluminum',
@@ -84,7 +84,7 @@ const PRODUCTS = [
       { k: 'Hardware',        v: 'Architectural grade · Stainless or powder coat' },
       { k: 'Applications',    v: 'Residential · Commercial · Access-controlled' },
     ],
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1100&q=85',
+    image: '/images/entry-doors-Aluminum Entry Doors.jpeg',
   },
 ]
 
