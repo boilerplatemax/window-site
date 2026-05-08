@@ -149,10 +149,10 @@ export default function AboutPage() {
         <div className="site-container">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
             {[
-              { n: '850+', l: 'Projects Supplied' },
-              { n: '12+',  l: 'Years in Business' },
-              { n: '38',   l: 'States & Provinces' },
-              { n: '100%', l: 'Direct Supply' },
+              { n: '75+',     l: 'Projects Supplied' },
+              { n: '10+',     l: 'Years in Business' },
+              { n: 'Ontario', l: 'Wide Coverage' },
+              { n: '100%',    l: 'Direct Supply' },
             ].map(({ n, l }) => (
               <div key={l}>
                 <p className="font-display text-forma-text text-5xl font-light mb-1">{n}</p>

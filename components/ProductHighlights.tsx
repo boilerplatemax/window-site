@@ -7,8 +7,7 @@ const HIGHLIGHTS = [
     label: 'Windows',
     name: 'Corner Glass Systems',
     body: 'Two panes meeting at a frameless corner — no post, no interruption, no compromise on the view.',
-    image:
-      'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=700&q=80',
+    image: '/images/home-Corner Glass Systems.webp',
   },
   {
     id: 'bi-fold',
@@ -16,8 +15,7 @@ const HIGHLIGHTS = [
     label: 'Folding Walls',
     name: 'Bi-Fold Glass Walls',
     body: 'Accordion-style panels that fold and stack to dissolve an entire wall face into open air.',
-    image:
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=700&q=80',
+    image: '/images/home-bi-fold glass walls.webp',
   },
   {
     id: 'pivot-doors',
@@ -25,8 +23,7 @@ const HIGHLIGHTS = [
     label: 'Entry Doors',
     name: 'Pivot Entry Doors',
     body: 'A pivot door changes how a building is entered. Oversized, balanced, and precisely engineered.',
-    image:
-      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=700&q=80',
+    image: '/images/home-pivot entry doors.webp',
   },
 ]
 
