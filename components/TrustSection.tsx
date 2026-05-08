@@ -1,8 +1,8 @@
 const STATS = [
-  { number: '850+', label: 'Projects Supplied' },
-  { number: '12+',  label: 'Years in Operation' },
-  { number: '38',   label: 'States & Provinces Served' },
-  { number: '6m',   label: 'Max Panel Width' },
+  { number: '75+',     label: 'Projects Supplied' },
+  { number: '10+',     label: 'Years in Operation' },
+  { number: 'Ontario', label: 'Wide Coverage' },
+  { number: '6m',      label: 'Max Panel Width' },
 ]
 
 const TESTIMONIALS = [
