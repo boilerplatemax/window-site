@@ -6,6 +6,7 @@ import FeaturedProduct from '@/components/FeaturedProduct'
 import ProjectsPreview from '@/components/ProjectsPreview'
 import ProductHighlights from '@/components/ProductHighlights'
 import TrustSection from '@/components/TrustSection'
+import PartnerLogos from '@/components/PartnerLogos'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
@@ -47,7 +48,10 @@ export default function HomePage() {
       {/* 8. Trust signals — stats, testimonials, certifications */}
       <TrustSection />
 
-      {/* 9. CTA banner — dark bg, conversion close */}
+      {/* 9. Partner logos — suppliers and system partners */}
+      <PartnerLogos />
+
+      {/* 10. CTA banner — dark bg, conversion close */}
       <CTASection />
     </>
   )
