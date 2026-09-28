@@ -48,6 +48,19 @@ export default function Footer() {
                 <a href="tel:+14168917555" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">+1 (416) 891-7555</a>
               </div>
             </div>
+
+            <p className="section-label-light mt-8 mb-2">Office</p>
+            <address className="not-italic">
+              <a
+                href="https://maps.google.com/?q=2598+E+Sunrise+Blvd,+Fort+Lauderdale,+FL+33304"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 not-italic"
+              >
+                2598 E Sunrise Blvd<br />
+                Fort Lauderdale, FL 33304
+              </a>
+            </address>
           </div>
 
           {/* Products */}
