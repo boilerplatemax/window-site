@@ -2,18 +2,18 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Mississauga Residence — Bi-Fold Glass Walls, Pivot Entry Door',
+  title: 'The Mississauga Residence: Bi-Fold Glass Walls, Pivot Entry Door',
   description:
-    'Bi-fold glass walls, picture windows, and a 3-metre pivot entry door for a contemporary ravine-lot residence in Mississauga, Ontario — supplied and specified by SIGNATURESPAN INC.',
+    'Bi-fold glass walls, picture windows, and a 3-metre pivot entry door for a contemporary ravine-lot residence in Mississauga, Ontario, supplied and specified by SIGNATURESPAN INC.',
   keywords: [
     'Mississauga architectural glass', 'bi fold glass wall Ontario', 'pivot entry door residential',
     'modern windows Mississauga', 'large format windows Greater Toronto Area',
     'glass wall ravine home',
   ],
   openGraph: {
-    title: 'The Mississauga Residence — SIGNATURESPAN INC.',
+    title: 'The Mississauga Residence | SIGNATURESPAN INC.',
     description: 'Bi-fold glass walls, picture windows, and a 3-metre pivot entry door for a ravine-lot residence in Mississauga, Ontario.',
-    images: [{ url: '/images/mississauga-house-hero.jpg', width: 1800, height: 1000, alt: 'The Mississauga Residence — bi-fold glass walls open to ravine deck' }],
+    images: [{ url: '/images/mississauga-house-hero.jpg', width: 1800, height: 1000, alt: 'The Mississauga Residence, bi-fold glass walls open to ravine deck' }],
   },
   alternates: { canonical: 'https://signaturespan.com/projects/mississauga-house' },
 }
@@ -36,8 +36,8 @@ const SPECS = [
 ]
 
 const GALLERY = [
-  { src: '/images/mississauga-house-interior-1.jpg', alt: 'The Mississauga Residence — bi-fold glass wall interior looking out to ravine deck' },
-  { src: '/images/caledon-house-backyard-1.jpg', alt: 'Residential glass wall system — backyard view with lift & slide doors open' },
+  { src: '/images/mississauga-house-interior-1.jpg', alt: 'The Mississauga Residence, bi-fold glass wall interior looking out to ravine deck' },
+  { src: '/images/caledon-house-backyard-1.jpg', alt: 'Residential glass wall system, backyard view with lift & slide doors open' },
 ]
 
 export default function MississaugaHousePage() {
@@ -53,7 +53,7 @@ export default function MississaugaHousePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/mississauga-house-exterior-1.jpg')" }}
           role="img"
-          aria-label="The Mississauga Residence — bi-fold glass wall system open to outdoor deck"
+          aria-label="The Mississauga Residence, bi-fold glass wall system open to outdoor deck"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-forma-black/90 via-forma-black/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/20 to-transparent" />
@@ -78,7 +78,7 @@ export default function MississaugaHousePage() {
             <em>Residence.</em>
           </h1>
           <p className="font-sans text-forma-white/85 text-base sm:text-lg max-w-[440px] leading-relaxed">
-            Bi-fold glass walls, picture windows, and a statement pivot entry door — bringing
+            Bi-fold glass walls, picture windows, and a statement pivot entry door, bringing
             the ravine into a contemporary home on the edge of the GTA.
           </p>
         </div>
@@ -100,11 +100,11 @@ export default function MississaugaHousePage() {
                   Situated on a ravine lot in south Mississauga, this contemporary residence
                   was designed to dissolve the boundary between the interior living spaces and
                   the mature woodland below. The clients wanted to feel connected to the
-                  ravine in every season — from summer entertaining to winter light.
+                  ravine in every season, from summer entertaining to winter light.
                 </p>
                 <p>
                   SIGNATURESPAN supplied a 7,600mm bi-fold glass wall system across the rear of the
-                  main living level — six top-hung panels that compress into a stack at the
+                  main living level, six top-hung panels that compress into a stack at the
                   south end of the opening. When fully open, the living and dining rooms
                   become continuous with a cantilevered deck, with no threshold to step over.
                 </p>
@@ -167,8 +167,8 @@ export default function MississaugaHousePage() {
           <p className="section-label mb-8">Systems Supplied</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
             {[
-              { href: '/folding-glass-walls', label: 'Bi-Fold Glass Wall System', body: '7,600 mm opening — 6 panels, top-hung, stacking to the south. Champagne anodised aluminium, double-glazed low-E.' },
-              { href: '/windows', label: 'Picture Windows', body: 'Fixed picture windows on the ravine-facing elevation — slim rebated frames, maximum visible glass, custom sizing.' },
+              { href: '/folding-glass-walls', label: 'Bi-Fold Glass Wall System', body: '7,600 mm opening, 6 panels, top-hung, stacking to the south. Champagne anodised aluminium, double-glazed low-E.' },
+              { href: '/windows', label: 'Picture Windows', body: 'Fixed picture windows on the ravine-facing elevation, slim rebated frames, maximum visible glass, custom sizing.' },
               { href: '/entry-doors', label: 'Pivot Entry Door', body: '1,100 mm × 3,050 mm offset-axis pivot. Clear glass infill, matching champagne anodised frame, flush threshold.' },
             ].map(({ href, label, body }) => (
               <div key={label}>

@@ -46,7 +46,7 @@ const CATEGORIES = [
 export default function ProductCategoryGrid() {
   return (
     <section aria-label="Product categories">
-      {/* 2×2 flush grid — cards bleed edge-to-edge */}
+      {/* 2×2 flush grid, cards bleed edge-to-edge */}
       <div className="grid grid-cols-1 sm:grid-cols-2">
         {CATEGORIES.map((cat) => (
           <Link
@@ -56,7 +56,7 @@ export default function ProductCategoryGrid() {
             style={{ minHeight: 'clamp(380px, 44vw, 620px)' }}
             aria-label={`Explore ${cat.label}`}
           >
-            {/* Background — zooms on hover */}
+            {/* Background, zooms on hover */}
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.05]"
               style={{ backgroundImage: `url('${cat.image}')`, backgroundColor: cat.bg }}
@@ -87,7 +87,7 @@ export default function ProductCategoryGrid() {
                 <em>{cat.headline[1]}</em>
               </h3>
 
-              {/* Hover CTA — slides up */}
+              {/* Hover CTA, slides up */}
               <div className="mt-5 flex items-center gap-2.5 text-forma-gold font-mono text-[10px] tracking-label uppercase translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">
                 Explore System
                 <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true">

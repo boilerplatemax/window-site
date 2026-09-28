@@ -3,18 +3,18 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Projects & Inspiration — Architectural Glass Installations',
+  title: 'Projects & Inspiration: Architectural Glass Installations',
   description:
-    'Completed SIGNATURESPAN projects — residential and commercial glass installations across Ontario and the Pacific Northwest, featuring large-format windows, lift & slide systems, folding glass walls, and architectural entry doors.',
+    'Completed SIGNATURESPAN projects, residential and commercial glass installations across Ontario and the Pacific Northwest, featuring large-format windows, lift & slide systems, folding glass walls, and architectural entry doors.',
   keywords: [
     'architectural glass projects Ontario', 'modern window installation residential',
     'glass wall project Canada', 'Caledon house architectural windows',
     'Mississauga modern residence glass doors', 'large format windows installation',
   ],
   openGraph: {
-    title: 'Projects & Inspiration — SIGNATURESPAN INC.',
+    title: 'Projects & Inspiration | SIGNATURESPAN INC.',
     description: 'Custom architectural glass installations for residential and commercial projects across Canada and the Pacific Northwest.',
-    images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House — architectural glass project' }],
+    images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House, architectural glass project' }],
   },
 }
 
@@ -26,7 +26,7 @@ const FEATURED = {
   architect: 'Custom Build',
   products: 'Lift & Slide · Floor-to-Ceiling Windows · Corner Glass',
   description:
-    'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. SIGNATURESPAN supplied a full glazing package across the main living spaces — lift & slide systems opening onto the rear terrace, corner glass connecting the dining room to two aspects of the landscape, and floor-to-ceiling windows running the full width of the primary bedroom wing.',
+    'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. SIGNATURESPAN supplied a full glazing package across the main living spaces, lift & slide systems opening onto the rear terrace, corner glass connecting the dining room to two aspects of the landscape, and floor-to-ceiling windows running the full width of the primary bedroom wing.',
   image: '/images/caledon-house-exterior-2.jpg',
   imageFallback: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85',
 }
@@ -91,7 +91,7 @@ export default function ProjectsPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url('${FEATURED.image}')` }}
           role="img"
-          aria-label="The Caledon House — architectural glass installation, Caledon, Ontario"
+          aria-label="The Caledon House, architectural glass installation, Caledon, Ontario"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-forma-black/94 via-forma-black/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/20 to-transparent" />
@@ -112,7 +112,7 @@ export default function ProjectsPage() {
           </h1>
           <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed">
             Residential and commercial installations across Ontario, the Pacific Northwest,
-            and beyond — every project custom-specified to the site and the architect.
+            and beyond, every project custom-specified to the site and the architect.
           </p>
         </div>
       </section>
@@ -131,8 +131,8 @@ export default function ProjectsPage() {
         </div>
       </div>
 
-      {/* ── Featured Project — The Caledon House ── */}
-      <section className="bg-forma-black pt-16 pb-0" aria-label="Featured project — The Caledon House">
+      {/* ── Featured Project, The Caledon House ── */}
+      <section className="bg-forma-black pt-16 pb-0" aria-label="Featured project, The Caledon House">
         <div className="site-container mb-5">
           <p className="section-label-light">Featured Project</p>
         </div>
@@ -146,7 +146,7 @@ export default function ProjectsPage() {
             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
             style={{ backgroundImage: `url('${FEATURED.image}')`, backgroundColor: '#111' }}
             role="img"
-            aria-label={`${FEATURED.name}, ${FEATURED.location} — architectural glass installation`}
+            aria-label={`${FEATURED.name}, ${FEATURED.location}, architectural glass installation`}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-forma-black/88 via-forma-black/25 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 site-container pb-10">
@@ -237,7 +237,7 @@ export default function ProjectsPage() {
             </div>
             <div className="space-y-5">
               <p className="font-sans text-forma-muted text-base leading-relaxed">
-                We work directly with architects, builders, and homeowners — from initial
+                We work directly with architects, builders, and homeowners, from initial
                 specification through to delivery. No middlemen, no catalogue constraints.
                 Every system is selected and sized for the specific project.
               </p>

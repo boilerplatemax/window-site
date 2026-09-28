@@ -6,7 +6,7 @@ const HIGHLIGHTS = [
     href: '/windows/corner-glass',
     label: 'Windows',
     name: 'Corner Glass Systems',
-    body: 'Two panes meeting at a frameless corner — no post, no interruption, no compromise on the view.',
+    body: 'Two panes meeting at a frameless corner, no post, no interruption, no compromise on the view.',
     image: '/images/home-Corner Glass Systems.webp',
   },
   {

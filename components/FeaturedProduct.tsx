@@ -13,7 +13,7 @@ export default function FeaturedProduct() {
   return (
     <section
       className="bg-forma-white section-pad"
-      aria-label="Featured System — Lift & Slide Doors"
+      aria-label="Featured System, Lift & Slide Doors"
     >
       <div className="site-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -49,7 +49,7 @@ export default function FeaturedProduct() {
 
             <p className="font-sans text-forma-muted text-base leading-relaxed mb-10 max-w-sm">
               When a door opens, a wall should disappear. Our lift &amp; slide system glides
-              panels up to 6 metres wide with fingertip ease — creating a seamless transition
+              panels up to 6 metres wide with fingertip ease, creating a seamless transition
               between interior living and outdoor space without compromising thermal performance.
             </p>
 

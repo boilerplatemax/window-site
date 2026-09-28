@@ -3,9 +3,9 @@ import Link from "next/link"
 import CTASection from "@/components/CTASection"
 
 export const metadata: Metadata = {
-  title: "Architectural Entry Doors — Pivot, Steel & Glass, Aluminum",
+  title: "Architectural Entry Doors: Pivot, Steel & Glass, Aluminum",
   description:
-    "Modern architectural entry doors from SIGNATURESPAN — oversized pivot doors, steel and glass entry systems, and thermally broken aluminium doors for residential and commercial projects.",
+    "Modern architectural entry doors from SIGNATURESPAN, oversized pivot doors, steel and glass entry systems, and thermally broken aluminium doors for residential and commercial projects.",
   keywords: [
     "modern entry doors",
     "pivot door",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "architectural entry door residential",
   ],
   openGraph: {
-    title: "Architectural Entry Doors — Pivot, Steel & Glass — SIGNATURESPAN",
+    title: "Architectural Entry Doors: Pivot, Steel & Glass | SIGNATURESPAN",
     description:
-      "Modern architectural entry doors — oversized pivot doors, steel and glass entry systems, and thermally broken aluminium doors.",
+      "Modern architectural entry doors, oversized pivot doors, steel and glass entry systems, and thermally broken aluminium doors.",
     images: [
       {
         url: "/images/hero.jpg",
@@ -58,14 +58,14 @@ const PRODUCTS = [
     name: "Pivot Entry Doors",
     tag: "Statement Product",
     description:
-      "A pivot door rotates on a floor-to-ceiling axis rather than side-hung hinges — allowing panels up to 1,400mm wide and 3,500mm tall to open with effortless precision.",
-    body: "The pivot door is one of the few product categories where the mechanism itself is the design statement. The door doesn't swing on a hinge at its edge — it rotates on a central or off-centre axis, pivoting from floor plate to overhead carrier with perfect balance regardless of panel size or weight. At scale, pivot doors are architecturally transformative: a 1,200mm wide, 3,200mm tall glass and aluminium panel opening in a single smooth rotation redefines what an entrance feels like. SIGNATURESPAN pivot doors are available with glass infill panels, solid aluminium, or a combination of both — in any RAL colour with matching or contrasting hardware.",
+      "A pivot door rotates on a floor-to-ceiling axis rather than side-hung hinges, allowing panels up to 1,400mm wide and 3,500mm tall to open with effortless precision.",
+    body: "The pivot door is one of the few product categories where the mechanism itself is the design statement. The door doesn't swing on a hinge at its edge, it rotates on a central or off-centre axis, pivoting from floor plate to overhead carrier with perfect balance regardless of panel size or weight. At scale, pivot doors are architecturally transformative: a 1,200mm wide, 3,200mm tall glass and aluminium panel opening in a single smooth rotation redefines what an entrance feels like. SIGNATURESPAN pivot doors are available with glass infill panels, solid aluminium, or a combination of both, in any RAL colour with matching or contrasting hardware.",
     specs: [
       { k: "Max Width", v: "Up to 1,400 mm" },
       { k: "Max Height", v: "Up to 3,500 mm" },
       { k: "Pivot Type", v: "Central or offset axis" },
       { k: "Panel Options", v: "Full glass · Solid · Composite" },
-      { k: "Locking", v: "Integrated multipoint — flush lever or pull bar" },
+      { k: "Locking", v: "Integrated multipoint, flush lever or pull bar" },
       { k: "Finish", v: "Any RAL powder coat · Anodised · Natural Aluminium" },
     ],
     image: "/images/entry-doors-Pivot Entry Doors.jpg",
@@ -77,17 +77,17 @@ const PRODUCTS = [
     name: "Steel & Glass Entry",
     tag: null,
     description:
-      "Cold-rolled steel profiles with architectural glass infills — the industrial-modern aesthetic executed with precision engineering and long-term durability.",
+      "Cold-rolled steel profiles with architectural glass infills, the industrial-modern aesthetic executed with precision engineering and long-term durability.",
     body: "Steel and glass entry doors appeal to a particular architectural sensibility: the honest expression of industrial materials, refined to a residential or commercial standard. Cold-rolled steel profiles are inherently slimmer than aluminium equivalents at the same structural performance, making them ideal where sight lines matter as much as the glass itself. SIGNATURESPAN steel & glass entry systems are powder coated in any RAL colour, with the option for contrasting interior and exterior finishes. Side panels, transoms, and full-height sidelights integrate with the same profile system for a unified entrance composition.",
     specs: [
       { k: "Frame Material", v: "Cold-rolled steel" },
       {
         k: "Profile Depth",
-        v: "From 40 mm — slimmer than equivalent aluminium",
+        v: "From 40 mm, slimmer than equivalent aluminium",
       },
       { k: "Glass Options", v: "Clear · Frosted · Tinted · Patterned" },
       { k: "Sidelights", v: "Fixed panels · Matching profile system" },
-      { k: "Hardware", v: "Surface-mounted or flush — custom options" },
+      { k: "Hardware", v: "Surface-mounted or flush, custom options" },
       { k: "Finish", v: "Any RAL · Dual-colour interior/exterior available" },
     ],
     image: "/images/entry-doors-Steel & Glass Entry.jpg",
@@ -99,8 +99,8 @@ const PRODUCTS = [
     name: "Aluminum Entry Doors",
     tag: null,
     description:
-      "Thermally broken aluminium entry doors for high-traffic residential entrances and commercial applications — precision hardware, low maintenance, long performance life.",
-    body: "Aluminium entry doors are the workhorse of the modern entry door category: dimensionally stable, corrosion-resistant, available in any colour, and capable of accommodating large glass areas without compromising structural performance. SIGNATURESPAN aluminium entry doors are manufactured from thermally broken profiles — the same profile system used in our window range — ensuring consistent thermal performance between door and adjacent glazing. Commercial-grade multipoint locking is standard, with options for access control, panic hardware, and motorised operators for commercial entrances.",
+      "Thermally broken aluminium entry doors for high-traffic residential entrances and commercial applications, precision hardware, low maintenance, long performance life.",
+    body: "Aluminium entry doors are the workhorse of the modern entry door category: dimensionally stable, corrosion-resistant, available in any colour, and capable of accommodating large glass areas without compromising structural performance. SIGNATURESPAN aluminium entry doors are manufactured from thermally broken profiles, the same profile system used in our window range, ensuring consistent thermal performance between door and adjacent glazing. Commercial-grade multipoint locking is standard, with options for access control, panic hardware, and motorised operators for commercial entrances.",
     specs: [
       { k: "Frame Material", v: "Thermally broken 6063-T5 aluminium alloy" },
       {
@@ -108,7 +108,7 @@ const PRODUCTS = [
         v: "Up to 1,200 mm single leaf · 2,400 mm double",
       },
       { k: "Max Height", v: "Up to 3,000 mm" },
-      { k: "Locking", v: "Multipoint — up to 5 lock points as standard" },
+      { k: "Locking", v: "Multipoint, up to 5 lock points as standard" },
       { k: "Hardware", v: "Architectural grade · Stainless or powder coat" },
       { k: "Applications", v: "Residential · Commercial · Access-controlled" },
     ],
@@ -120,17 +120,17 @@ const BENEFITS = [
   {
     num: "01",
     headline: "The entrance sets the tone.",
-    body: "An entrance door is the first physical interaction a person has with a building. It communicates the quality and character of everything that follows. An undersized, off-the-shelf door in an architecturally considered building is a contradiction — it undermines the design intent before the visitor has stepped inside.",
+    body: "An entrance door is the first physical interaction a person has with a building. It communicates the quality and character of everything that follows. An undersized, off-the-shelf door in an architecturally considered building is a contradiction, it undermines the design intent before the visitor has stepped inside.",
   },
   {
     num: "02",
     headline: "Security without compromise.",
-    body: "Large-format entry doors demand hardware that matches their scale. SIGNATURESPAN entry systems use commercial-grade multipoint locking mechanisms — not consumer-grade single-point locks — distributed across the full height of the door leaf. The result is a panel that seals against the frame under equal pressure at every point.",
+    body: "Large-format entry doors demand hardware that matches their scale. SIGNATURESPAN entry systems use commercial-grade multipoint locking mechanisms, not consumer-grade single-point locks, distributed across the full height of the door leaf. The result is a panel that seals against the frame under equal pressure at every point.",
   },
   {
     num: "03",
     headline: "Specified to the project, not the catalogue.",
-    body: "Door dimensions, glass configuration, hardware position, panel division, colour, and threshold detail are all specified individually for each project. SIGNATURESPAN does not offer package deals. We offer the right door for the building — and the technical documentation to prove it meets the specification.",
+    body: "Door dimensions, glass configuration, hardware position, panel division, colour, and threshold detail are all specified individually for each project. SIGNATURESPAN does not offer package deals. We offer the right door for the building, and the technical documentation to prove it meets the specification.",
   },
 ]
 
@@ -197,7 +197,7 @@ export default function EntryDoorsPage() {
             <em>is the first sentence.</em>
           </h1>
           <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed mb-10">
-            Pivot doors, steel & glass entry systems, and aluminium doors —
+            Pivot doors, steel & glass entry systems, and aluminium doors,
             engineered to make the right impression, every time.
           </p>
           <Link href="/contact" className="btn-primary">
@@ -222,14 +222,14 @@ export default function EntryDoorsPage() {
             <div className="space-y-5 lg:pt-4">
               <p className="font-sans text-forma-muted text-base sm:text-[17px] leading-relaxed">
                 In modern architectural practice, the entry door is rarely
-                treated as a standard component. It is a compositional element —
+                treated as a standard component. It is a compositional element,
                 scaled to the facade, proportioned to the opening, and finished
                 in a way that signals the quality of the building behind it.
               </p>
               <p className="font-sans text-forma-muted text-base leading-relaxed">
                 SIGNATURESPAN entry door systems are designed for architects and
                 builders who understand this. We offer three distinct product
-                families — pivot, steel & glass, and aluminium — each with
+                families, pivot, steel & glass, and aluminium, each with
                 different structural characteristics, aesthetic registers, and
                 performance profiles. All are custom-specified. None are
                 off-the-shelf.
@@ -301,7 +301,7 @@ export default function EntryDoorsPage() {
         ))}
       </section>
 
-      {/* ── Benefits — dark ── */}
+      {/* ── Benefits, dark ── */}
       <section className="bg-forma-black">
         <div className="w-full h-px bg-forma-white/8" />
         <div className="site-container py-28 lg:py-36">

@@ -2,12 +2,12 @@ const VALUE_PROPS = [
   {
     num: '01',
     headline: 'Made to your opening.',
-    body: 'Standard sizes are a starting point. Every SIGNATURESPAN system is specified to your exact opening — width, height, sill depth, and profile finish.',
+    body: 'Standard sizes are a starting point. Every SIGNATURESPAN system is specified to your exact opening, width, height, sill depth, and profile finish.',
   },
   {
     num: '02',
     headline: 'Engineered for climate.',
-    body: 'Thermally broken aluminium frames, triple-glazed options, and low-E coatings rated for cold climates — without sacrificing the view.',
+    body: 'Thermally broken aluminium frames, triple-glazed options, and low-E coatings rated for cold climates, without sacrificing the view.',
   },
   {
     num: '03',
@@ -27,7 +27,7 @@ interface Props {
 
 export default function FeatureSection({ variant }: Props) {
 
-  /* ── Manifesto variant — editorial two-column layout ── */
+  /* ── Manifesto variant, editorial two-column layout ── */
   if (variant === 'manifesto') {
     return (
       <section className="bg-forma-white overflow-hidden" aria-label="Brand philosophy">
@@ -37,7 +37,7 @@ export default function FeatureSection({ variant }: Props) {
         <div className="site-container py-28 lg:py-36">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-0 lg:gap-0 items-start">
 
-            {/* Left — large quote */}
+            {/* Left, large quote */}
             <div className="lg:pr-16">
               <span className="gold-line mb-10 block" aria-hidden="true" />
               <blockquote>
@@ -48,25 +48,25 @@ export default function FeatureSection({ variant }: Props) {
               </blockquote>
             </div>
 
-            {/* Centre — vertical gold rule (desktop only) */}
+            {/* Centre, vertical gold rule (desktop only) */}
             <div className="hidden lg:block w-px self-stretch bg-forma-divider mx-12" aria-hidden="true" />
 
-            {/* Right — supporting copy + attribution */}
+            {/* Right, supporting copy + attribution */}
             <div className="lg:pt-16 mt-12 lg:mt-0">
               <p className="font-sans text-forma-muted text-base sm:text-lg leading-relaxed mb-10">
                 SIGNATURESPAN engineers large-format glass systems for architects, builders,
-                and homeowners who understand that light is the material — and that
+                and homeowners who understand that light is the material, and that
                 every opening should be deliberate.
               </p>
 
               <p className="font-sans text-forma-muted text-sm leading-relaxed mb-12">
                 We don't manufacture windows. We manufacture the conditions for great
-                architecture — systems that disappear into the building and let the
+                architecture, systems that disappear into the building and let the
                 view do the work.
               </p>
 
               <p className="font-mono text-[10px] tracking-label uppercase text-forma-gold">
-                — SIGNATURESPAN INC.
+                SIGNATURESPAN INC.
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function FeatureSection({ variant }: Props) {
     )
   }
 
-  /* ── Values variant — numbered 4-column, dark bg ── */
+  /* ── Values variant, numbered 4-column, dark bg ── */
   return (
     <section className="bg-forma-black" aria-label="Why SIGNATURESPAN">
       {/* Top border full width */}
@@ -104,7 +104,7 @@ export default function FeatureSection({ variant }: Props) {
           </div>
         </div>
 
-        {/* 4-column values — separated by vertical rules on desktop */}
+        {/* 4-column values, separated by vertical rules on desktop */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x divide-forma-white/8">
           {VALUE_PROPS.map((v) => (
             <div key={v.num} className="group py-10 sm:py-0 lg:px-8 first:lg:pl-0 last:lg:pr-0">

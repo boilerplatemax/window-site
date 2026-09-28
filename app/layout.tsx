@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://signaturespan.com'),
   title: {
     template: '%s | SIGNATURESPAN INC.',
-    default: 'SIGNATURESPAN — Large Format Windows & Glass Systems',
+    default: 'SIGNATURESPAN: Large Format Windows & Glass Systems',
   },
   description:
-    'SIGNATURESPAN supplies large-format architectural windows, sliding glass door systems, folding glass walls, and entry doors — custom-specified for residential and commercial projects across Canada and the US.',
+    'SIGNATURESPAN supplies large-format architectural windows, sliding glass door systems, folding glass walls, and entry doors, custom-specified for residential and commercial projects across Canada and the US.',
   keywords: [
     'architectural windows', 'large format windows', 'modern aluminum windows',
     'sliding glass doors', 'lift and slide doors', 'folding glass walls',
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_CA',
     siteName: 'SIGNATURESPAN INC.',
-    title: 'SIGNATURESPAN — Large Format Windows & Glass Systems',
+    title: 'SIGNATURESPAN: Large Format Windows & Glass Systems',
     description:
       'Custom large-format windows, sliding glass doors, folding glass walls, and entry doors for residential and commercial projects.',
-    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'SIGNATURESPAN — modern home with floor-to-ceiling windows' }],
+    images: [{ url: '/images/hero.jpg', width: 1920, height: 1080, alt: 'SIGNATURESPAN, modern home with floor-to-ceiling windows' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SIGNATURESPAN — Large Format Windows & Glass Systems',
+    title: 'SIGNATURESPAN: Large Format Windows & Glass Systems',
     description:
       'Custom large-format windows, sliding glass doors, folding glass walls, and entry doors.',
     images: ['/images/hero.jpg'],

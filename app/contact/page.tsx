@@ -38,7 +38,7 @@ const WHY_ITEMS = [
   {
     num: '01',
     title: 'Respond within 24 hours',
-    body: 'Every enquiry is reviewed by our specification team — not a call centre. You\'ll receive a personalised response within one business day.',
+    body: 'Every enquiry is reviewed by our specification team, not a call centre. You\'ll receive a personalised response within one business day.',
   },
   {
     num: '02',
@@ -48,7 +48,7 @@ const WHY_ITEMS = [
   {
     num: '03',
     title: 'Spec-ready documentation',
-    body: 'CAD drawings, energy performance data, and installation guides for every system — ready for your documentation package.',
+    body: 'CAD drawings, energy performance data, and installation guides for every system, ready for your documentation package.',
   },
 ]
 
@@ -92,7 +92,7 @@ export default function ContactPage() {
         className="relative bg-forma-black overflow-hidden"
         style={{ paddingTop: 'clamp(120px, 14vw, 200px)', paddingBottom: 'clamp(60px, 7vw, 100px)' }}
       >
-        {/* Subtle texture — faint grid */}
+        {/* Subtle texture, faint grid */}
         <div
           className="absolute inset-0 opacity-[0.04]"
           style={{
@@ -119,7 +119,7 @@ export default function ContactPage() {
             <div className="space-y-6 lg:pb-2">
               <p className="font-sans text-forma-white/80 text-base sm:text-[17px] leading-relaxed">
                 Tell us about your project and we'll come back with a specification recommendation,
-                system selection, and indicative pricing — within one business day.
+                system selection, and indicative pricing, within one business day.
               </p>
               <p className="font-sans text-forma-white/70 text-sm leading-relaxed">
                 We work directly with architects, builders, interior designers, and
@@ -154,7 +154,7 @@ export default function ContactPage() {
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20">
 
-            {/* Form — takes 2 cols */}
+            {/* Form, takes 2 cols */}
             <div className="lg:col-span-2">
               {submitted ? (
                 <div className="py-20 text-center">
@@ -280,7 +280,7 @@ export default function ContactPage() {
                         rows={5}
                         value={form.message}
                         onChange={handleChange}
-                        placeholder="Tell us about your project — opening sizes, timeline, any existing drawings or specifications..."
+                        placeholder="Tell us about your project, opening sizes, timeline, any existing drawings or specifications..."
                         className="w-full border border-forma-divider bg-transparent px-4 py-3 font-sans text-sm text-forma-text placeholder:text-forma-muted/40 focus:outline-none focus:border-forma-gold transition-colors duration-200 resize-none"
                       />
                     </label>
@@ -320,7 +320,7 @@ export default function ContactPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Octavius Wojciechowski — VP of Sales</p>
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Octavius Wojciechowski, VP of Sales</p>
                     <a href="tel:+15198974573" className="block font-display text-forma-text text-lg font-light hover:text-forma-gold transition-colors duration-200 mb-0.5">
                       +1 (519) 897-4573
                     </a>
@@ -329,7 +329,7 @@ export default function ContactPage() {
                     </a>
                   </div>
                   <div>
-                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Lucjan Janeczek — VP of Operations</p>
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Lucjan Janeczek, VP of Operations</p>
                     <a href="tel:+14168917555" className="block font-display text-forma-text text-lg font-light hover:text-forma-gold transition-colors duration-200 mb-0.5">
                       +1 (416) 891-7555
                     </a>
@@ -391,7 +391,7 @@ export default function ContactPage() {
                   ))}
                 </div>
                 <p className="font-sans text-forma-muted/60 text-[11px] mt-3 leading-relaxed">
-                  Outside this area? Contact us — we work beyond our primary service area for the right project.
+                  Outside this area? Contact us, we work beyond our primary service area for the right project.
                 </p>
               </div>
 

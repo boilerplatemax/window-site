@@ -6,7 +6,7 @@ const PROJECT = {
   type:        'Private Residence',
   architect:   'Custom Build',
   products:    'Lift & Slide · Floor-to-Ceiling Windows · Corner Glass',
-  description: 'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. SIGNATURESPAN supplied lift & slide systems, corner glass, and floor-to-ceiling windows across the main living wing — all custom-specified to the architect\'s exact dimensions.',
+  description: 'A private estate in Caledon designed to frame sweeping views of the Niagara Escarpment. SIGNATURESPAN supplied lift & slide systems, corner glass, and floor-to-ceiling windows across the main living wing, all custom-specified to the architect\'s exact dimensions.',
   heroImage:   '/images/caledon-house-exterior-2.jpg',
   detailImg1:  '/images/caledon-house-interrior-1.jpg',
   detailImg2:  '/images/caledon-house-backyard-1.jpg',
@@ -22,7 +22,7 @@ const META = [
 
 export default function ProjectsPreview() {
   return (
-    <section className="bg-forma-black" aria-label="Featured Project — The Caledon House">
+    <section className="bg-forma-black" aria-label="Featured Project, The Caledon House">
 
       {/* ── Section header ── */}
       <div className="site-container pt-24 lg:pt-32 pb-8">
@@ -40,7 +40,7 @@ export default function ProjectsPreview() {
         </div>
       </div>
 
-      {/* ── Cinematic hero image — edge-to-edge ── */}
+      {/* ── Cinematic hero image, edge-to-edge ── */}
       <Link
         href={PROJECT.href}
         className="group relative block w-full overflow-hidden"
@@ -51,7 +51,7 @@ export default function ProjectsPreview() {
           className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.02]"
           style={{ backgroundImage: `url('${PROJECT.heroImage}')`, backgroundColor: '#1c1c1c' }}
           role="img"
-          aria-label={`${PROJECT.name} — ${PROJECT.location}, rear elevation with lift & slide glass walls`}
+          aria-label={`${PROJECT.name}, ${PROJECT.location}, rear elevation with lift & slide glass walls`}
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black/75 via-transparent to-transparent" />
@@ -79,23 +79,23 @@ export default function ProjectsPreview() {
       <div className="site-container pb-24 lg:pb-32">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr_1.2fr] gap-5 mt-5 items-start">
 
-          {/* Detail image 1 — interior */}
+          {/* Detail image 1, interior */}
           <div className="overflow-hidden" style={{ height: 'clamp(200px, 18vw, 280px)' }}>
             <div
               className="w-full h-full bg-cover bg-center"
               style={{ backgroundImage: `url('${PROJECT.detailImg1}')`, backgroundColor: '#222' }}
               role="img"
-              aria-label="The Caledon House — interior view through floor-to-ceiling windows"
+              aria-label="The Caledon House, interior view through floor-to-ceiling windows"
             />
           </div>
 
-          {/* Detail image 2 — backyard/exterior */}
+          {/* Detail image 2, backyard/exterior */}
           <div className="overflow-hidden" style={{ height: 'clamp(200px, 18vw, 280px)' }}>
             <div
               className="w-full h-full bg-cover bg-center"
               style={{ backgroundImage: `url('${PROJECT.detailImg2}')`, backgroundColor: '#1e1e1e' }}
               role="img"
-              aria-label="The Caledon House — backyard with lift & slide glass wall systems"
+              aria-label="The Caledon House, backyard with lift & slide glass wall systems"
             />
           </div>
 

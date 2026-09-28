@@ -10,11 +10,11 @@ import PartnerLogos from '@/components/PartnerLogos'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'SIGNATURESPAN — Light. Space. Structure.',
+  title: 'SIGNATURESPAN: Light. Space. Structure.',
   description:
     'Large-format windows, sliding glass systems, folding glass walls, and architectural entry doors for residential and commercial projects across North America.',
   openGraph: {
-    title: 'SIGNATURESPAN — Light. Space. Structure.',
+    title: 'SIGNATURESPAN: Light. Space. Structure.',
     description:
       'Large-format windows, sliding glass systems, folding glass walls, and architectural entry doors.',
     url: 'https://signaturespan.com',
@@ -24,34 +24,34 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero — full viewport, dark */}
+      {/* 1. Hero, full viewport, dark */}
       <HeroSection />
 
-      {/* 2. Product category grid — 2×2 image cards */}
+      {/* 2. Product category grid, 2×2 image cards */}
       <ProductCategoryGrid />
 
-      {/* 3. Brand manifesto — editorial text, warm white */}
+      {/* 3. Brand manifesto, editorial text, warm white */}
       <FeatureSection variant="manifesto" />
 
-      {/* 4. Value propositions — 4 columns, dark bg */}
+      {/* 4. Value propositions, 4 columns, dark bg */}
       <FeatureSection variant="values" />
 
-      {/* 5. Featured product (Lift & Slide) — light bg, specs table */}
+      {/* 5. Featured product (Lift & Slide), light bg, specs table */}
       <FeaturedProduct />
 
-      {/* 6. Featured project — dark bg, hero image */}
+      {/* 6. Featured project, dark bg, hero image */}
       <ProjectsPreview />
 
-      {/* 7. Product highlights strip — 3 cards, light bg */}
+      {/* 7. Product highlights strip, 3 cards, light bg */}
       <ProductHighlights />
 
-      {/* 8. Trust signals — stats, testimonials, certifications */}
+      {/* 8. Trust signals, stats, testimonials, certifications */}
       <TrustSection />
 
-      {/* 9. Partner logos — suppliers and system partners */}
+      {/* 9. Partner logos, suppliers and system partners */}
       <PartnerLogos />
 
-      {/* 10. CTA banner — dark bg, conversion close */}
+      {/* 10. CTA banner, dark bg, conversion close */}
       <CTASection />
     </>
   )

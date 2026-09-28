@@ -35,7 +35,7 @@ export default function HeroSection() {
         aria-hidden="true"
       />
 
-      {/* ── Main content — bottom of viewport ── */}
+      {/* ── Main content, bottom of viewport ── */}
       <div className="relative z-10 mt-auto site-container w-full pb-20 lg:pb-24">
         <p className="font-mono text-[11px] tracking-label uppercase text-forma-white/85 mb-7">Architectural Glass Systems</p>
 
@@ -47,7 +47,7 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-20">
           <p className="font-sans text-forma-white/90 text-base sm:text-[17px] max-w-[340px] leading-relaxed">
             Large-format windows, sliding systems, folding glass walls,
-            and entry doors — engineered for the modern build.
+            and entry doors, engineered for the modern build.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-start">
             <Link href="/windows" className="btn-primary">

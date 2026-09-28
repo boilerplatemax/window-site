@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'About — Architectural Glass Supplier',
+  title: 'About: Architectural Glass Supplier',
   description:
     'SIGNATURESPAN INC. is a direct-supply specialist in large-format windows, sliding systems, folding glass walls, and entry doors for residential and commercial projects.',
   keywords: ['architectural glass supplier', 'custom window door company', 'glass wall manufacturer'],
@@ -12,7 +12,7 @@ const PROCESS_STEPS = [
   {
     num: '01',
     title: 'Consultation',
-    body: 'We start by understanding your project — the site, the opening, the brief. Phone, email, or in-person.',
+    body: 'We start by understanding your project, the site, the opening, the brief. Phone, email, or in-person.',
   },
   {
     num: '02',
@@ -47,7 +47,7 @@ const VALUES = [
   },
   {
     headline: 'Architecture deserves better.',
-    body: 'The glazing industry has historically under-served architects. SIGNATURESPAN was built to fix that — with real technical depth, proper documentation, and products that match the brief.',
+    body: 'The glazing industry has historically under-served architects. SIGNATURESPAN was built to fix that, with real technical depth, proper documentation, and products that match the brief.',
   },
 ]
 
@@ -97,7 +97,7 @@ export default function AboutPage() {
                   specifications alone.
                 </p>
                 <p>
-                  We built SIGNATURESPAN to be the supplier we always wished existed — technically
+                  We built SIGNATURESPAN to be the supplier we always wished existed, technically
                   fluent, direct to deal with, and obsessive about getting the specification right.
                 </p>
                 <p>
@@ -165,7 +165,7 @@ export default function AboutPage() {
 
       <CTASection
         headline={"Work with\nus directly."}
-        subheadline="Architects, builders, developers, and homeowners — we work with all of them, all the time. Get in touch."
+        subheadline="Architects, builders, developers, and homeowners, we work with all of them, all the time. Get in touch."
         primaryLabel="Start a Conversation"
         secondaryLabel="View Projects"
         secondaryHref="/projects"

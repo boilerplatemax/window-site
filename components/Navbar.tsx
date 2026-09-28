@@ -48,7 +48,7 @@ export default function Navbar() {
           <Link
             href="/"
             className="font-display text-forma-gold text-xl tracking-[0.28em] uppercase hover:text-forma-gold-dark transition-colors duration-300"
-            aria-label="SIGNATURESPAN — Home"
+            aria-label="SIGNATURESPAN, Home"
           >
             SIGNATURESPAN
           </Link>

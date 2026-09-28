@@ -2,18 +2,18 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Caledon House — Lift & Slide Windows, Corner Glass',
+  title: 'The Caledon House: Lift & Slide Windows, Corner Glass',
   description:
-    'Full glazing package for a private estate in Caledon, Ontario — lift & slide door systems, floor-to-ceiling windows, and corner glass supplied and specified by SIGNATURESPAN INC.',
+    'Full glazing package for a private estate in Caledon, Ontario, lift & slide door systems, floor-to-ceiling windows, and corner glass supplied and specified by SIGNATURESPAN INC.',
   keywords: [
     'Caledon house architectural glass', 'lift and slide doors Ontario',
     'floor to ceiling windows residential', 'corner glass system',
     'architectural windows Caledon', 'large format windows Ontario',
   ],
   openGraph: {
-    title: 'The Caledon House — SIGNATURESPAN INC.',
-    description: 'Full glazing package for a private estate in Caledon, Ontario — lift & slide systems, floor-to-ceiling windows, and corner glass.',
-    images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House exterior — floor-to-ceiling windows and lift & slide doors' }],
+    title: 'The Caledon House | SIGNATURESPAN INC.',
+    description: 'Full glazing package for a private estate in Caledon, Ontario, lift & slide systems, floor-to-ceiling windows, and corner glass.',
+    images: [{ url: '/images/caledon-house-hero.jpg', width: 1800, height: 1000, alt: 'The Caledon House exterior, floor-to-ceiling windows and lift & slide doors' }],
   },
   alternates: { canonical: 'https://signaturespan.com/projects/caledon-house' },
 }
@@ -36,9 +36,9 @@ const SPECS = [
 ]
 
 const GALLERY = [
-  { src: '/images/caledon-house-exterior-2.jpg', alt: 'The Caledon House — rear elevation showing lift & slide glass wall systems' },
-  { src: '/images/caledon-house-interrior-1.jpg', alt: 'The Caledon House — interior view through floor-to-ceiling windows to the Niagara Escarpment' },
-  { src: '/images/caledon-house-interrior-2.jpg', alt: 'The Caledon House — interior detail of corner glass system at dining room' },
+  { src: '/images/caledon-house-exterior-2.jpg', alt: 'The Caledon House, rear elevation showing lift & slide glass wall systems' },
+  { src: '/images/caledon-house-interrior-1.jpg', alt: 'The Caledon House, interior view through floor-to-ceiling windows to the Niagara Escarpment' },
+  { src: '/images/caledon-house-interrior-2.jpg', alt: 'The Caledon House, interior detail of corner glass system at dining room' },
 ]
 
 export default function CaledonHousePage() {
@@ -54,7 +54,7 @@ export default function CaledonHousePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/caledon-house-exterior-1.jpg')" }}
           role="img"
-          aria-label="The Caledon House — rear elevation with SIGNATURESPAN lift & slide glass wall systems"
+          aria-label="The Caledon House, rear elevation with SIGNATURESPAN lift & slide glass wall systems"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-forma-black/90 via-forma-black/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-forma-black via-forma-black/20 to-transparent" />
@@ -79,7 +79,7 @@ export default function CaledonHousePage() {
             <em>House.</em>
           </h1>
           <p className="font-sans text-forma-white/85 text-base sm:text-lg max-w-[440px] leading-relaxed">
-            Lift & slide systems, floor-to-ceiling windows, and corner glass — a full
+            Lift & slide systems, floor-to-ceiling windows, and corner glass, a full
             glazing package for a private estate overlooking the Niagara Escarpment.
           </p>
         </div>
@@ -100,7 +100,7 @@ export default function CaledonHousePage() {
               <div className="space-y-5 font-sans text-forma-muted text-base leading-relaxed">
                 <p>
                   The Caledon House was designed around its relationship with the Niagara
-                  Escarpment — a UNESCO World Biosphere Reserve visible from every major room.
+                  Escarpment, a UNESCO World Biosphere Reserve visible from every major room.
                   The architect's brief was clear: the glazing should disappear, leaving only
                   the landscape.
                 </p>
@@ -112,7 +112,7 @@ export default function CaledonHousePage() {
                 </p>
                 <p>
                   The corner glass system at the dining room eliminates the intermediate post
-                  entirely, allowing two full-height panels to meet without a visual break —
+                  entirely, allowing two full-height panels to meet without a visual break,
                   a frameless junction that disappears in the peripheral view. Floor-to-ceiling
                   window units in the bedroom wing run from sill to soffit in triple-glazed
                   aluminium, delivering a U-value of 0.8 W/m²K throughout.
@@ -171,9 +171,9 @@ export default function CaledonHousePage() {
           <p className="section-label mb-8">Systems Supplied</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
             {[
-              { href: '/sliding-doors', label: 'Lift & Slide System', body: 'Three bays — 2,400, 3,200 and 2,800 mm wide. Matte black thermally broken aluminium with triple-glazed units.' },
-              { href: '/windows', label: 'Floor-to-Ceiling Windows', body: 'Bedroom wing — eight fixed units from sill to soffit. Triple glazed, low-E, argon fill. U-value 0.8 W/m²K.' },
-              { href: '/windows', label: 'Corner Glass System', body: 'Dining room corner — frameless 90° junction, no intermediate post. Two panels, 3,200 mm each side.' },
+              { href: '/sliding-doors', label: 'Lift & Slide System', body: 'Three bays, 2,400, 3,200 and 2,800 mm wide. Matte black thermally broken aluminium with triple-glazed units.' },
+              { href: '/windows', label: 'Floor-to-Ceiling Windows', body: 'Bedroom wing, eight fixed units from sill to soffit. Triple glazed, low-E, argon fill. U-value 0.8 W/m²K.' },
+              { href: '/windows', label: 'Corner Glass System', body: 'Dining room corner, frameless 90° junction, no intermediate post. Two panels, 3,200 mm each side.' },
             ].map(({ href, label, body }) => (
               <div key={label}>
                 <h3 className="font-sans text-forma-text text-base font-medium mb-3">{label}</h3>

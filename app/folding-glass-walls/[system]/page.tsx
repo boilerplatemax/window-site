@@ -25,18 +25,18 @@ const SYSTEMS: Record<string, SystemData> = {
   'bi-fold': {
     name: 'Bi-Fold Glass Wall System',
     tag: 'Most Popular',
-    description: 'Accordion-style panels that fold and stack to one or both sides of the opening — dissolving an entire wall face when fully open.',
-    body: 'The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a SIGNATURESPAN bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung — no bottom track to step over — and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.',
+    description: 'Accordion-style panels that fold and stack to one or both sides of the opening, dissolving an entire wall face when fully open.',
+    body: 'The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a SIGNATURESPAN bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung, no bottom track to step over, and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.',
     specs: [
       { k: 'Panel Count',       v: '2 to 8 panels' },
       { k: 'Max Opening Width', v: 'Up to 10,000 mm' },
       { k: 'Max Panel Height',  v: '3,000 mm' },
       { k: 'Stack Direction',   v: 'Left, Right, or Split both sides' },
-      { k: 'Track',             v: 'Top-hung — no bottom guide rail' },
-      { k: 'Thermal Break',     v: 'Yes — Class A Aluminium Profile' },
+      { k: 'Track',             v: 'Top-hung, no bottom guide rail' },
+      { k: 'Thermal Break',     v: 'Yes, Class A Aluminium Profile' },
     ],
     image: '/images/mississauga-house-exterior-1.jpg',
-    imageAlt: 'Bi-fold glass wall system fully open to outdoor terrace — accordion panels stacked to the side',
+    imageAlt: 'Bi-fold glass wall system fully open to outdoor terrace, accordion panels stacked to the side',
     related: [
       { href: '/folding-glass-walls/corner', name: 'Corner Opening System' },
       { href: '/sliding-doors/lift-and-slide', name: 'Lift & Slide System' },
@@ -47,8 +47,8 @@ const SYSTEMS: Record<string, SystemData> = {
   'corner': {
     name: 'Corner Opening System',
     tag: 'Architect Favourite',
-    description: 'Two independent runs of folding panels meeting at a corner — when fully open, the corner of the building disappears entirely, creating a panoramic opening in two directions simultaneously.',
-    body: 'A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels — typically one per wall face — that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. SIGNATURESPAN corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above — not an intermediate post.',
+    description: 'Two independent runs of folding panels meeting at a corner, when fully open, the corner of the building disappears entirely, creating a panoramic opening in two directions simultaneously.',
+    body: 'A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels, typically one per wall face, that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. SIGNATURESPAN corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above, not an intermediate post.',
     specs: [
       { k: 'Configuration',   v: 'Two independent panel runs' },
       { k: 'Corner Post',     v: 'Concealed or slim exposed' },
@@ -58,7 +58,7 @@ const SYSTEMS: Record<string, SystemData> = {
       { k: 'Finish Options',  v: 'Powder Coat · Anodised · RAL · Dual-colour' },
     ],
     image: '/images/caledon-house-interrior-3.jpg',
-    imageAlt: 'Corner opening glass wall system — two panel runs meeting at 90° with no intermediate post',
+    imageAlt: 'Corner opening glass wall system, two panel runs meeting at 90° with no intermediate post',
     related: [
       { href: '/folding-glass-walls/bi-fold', name: 'Bi-Fold Glass Wall System' },
       { href: '/windows/corner-glass', name: 'Corner Glass Systems' },
@@ -76,11 +76,11 @@ export async function generateMetadata({ params }: { params: { system: string } 
   const data = SYSTEMS[params.system]
   if (!data) return {}
   return {
-    title: `${data.name} — Folding Glass Walls`,
+    title: `${data.name}: Folding Glass Walls`,
     description: data.description,
     keywords: data.keywords,
     openGraph: {
-      title: `${data.name} — SIGNATURESPAN INC.`,
+      title: `${data.name} | SIGNATURESPAN INC.`,
       description: data.description,
       images: [{ url: data.image, alt: data.imageAlt }],
     },

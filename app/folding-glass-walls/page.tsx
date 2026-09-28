@@ -3,9 +3,9 @@ import Link from "next/link"
 import CTASection from "@/components/CTASection"
 
 export const metadata: Metadata = {
-  title: "Folding Glass Walls — Bi-Fold & Corner Opening Systems",
+  title: "Folding Glass Walls: Bi-Fold & Corner Opening Systems",
   description:
-    "SIGNATURESPAN folding glass wall systems — bi-fold glass walls and corner opening systems. Open entire wall faces to create seamless indoor-outdoor connections. Custom widths, thermally broken aluminium.",
+    "SIGNATURESPAN folding glass wall systems, bi-fold glass walls and corner opening systems. Open entire wall faces to create seamless indoor-outdoor connections. Custom widths, thermally broken aluminium.",
   keywords: [
     "folding glass walls",
     "bi fold glass doors",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "indoor outdoor glass system",
   ],
   openGraph: {
-    title: "Folding Glass Walls — Bi-Fold & Corner Systems — SIGNATURESPAN",
+    title: "Folding Glass Walls: Bi-Fold & Corner Systems | SIGNATURESPAN",
     description:
-      "Bi-fold glass walls and corner opening systems — open entire wall faces for seamless indoor-outdoor connection.",
+      "Bi-fold glass walls and corner opening systems, open entire wall faces for seamless indoor-outdoor connection.",
     images: [
       {
         url: "/images/hero.jpg",
@@ -58,15 +58,15 @@ const PRODUCTS = [
     name: "Bi-Fold Glass Wall System",
     tag: "Most Popular",
     description:
-      "Accordion-style panels that fold and stack to one or both sides of the opening — dissolving an entire wall face when fully open.",
-    body: "The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a SIGNATURESPAN bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung — no bottom track to step over — and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.",
+      "Accordion-style panels that fold and stack to one or both sides of the opening, dissolving an entire wall face when fully open.",
+    body: "The bi-fold glass wall system works by folding panels in alternating directions along a top-hung track, compressing them into a stack at one or both ends of the opening. With configurations from 2 to 8 panels and stack directions tailored to the building layout, a SIGNATURESPAN bi-fold system can open a 10-metre wall face to the outdoors in a matter of seconds. The panels are top-hung, no bottom track to step over, and the threshold seal maintains weathertightness without creating a physical obstacle to the floor plane.",
     specs: [
       { k: "Panel Count", v: "2 to 8 panels" },
       { k: "Max Opening Width", v: "Up to 10,000 mm" },
       { k: "Max Panel Height", v: "3,000 mm" },
       { k: "Stack Direction", v: "Left, Right, or Split both sides" },
-      { k: "Track", v: "Top-hung — no bottom guide rail" },
-      { k: "Thermal Break", v: "Yes — Class A Aluminium Profile" },
+      { k: "Track", v: "Top-hung, no bottom guide rail" },
+      { k: "Thermal Break", v: "Yes, Class A Aluminium Profile" },
     ],
     image: "/images/folding-Bi-Fold Glass Wall System.webp",
   },
@@ -77,8 +77,8 @@ const PRODUCTS = [
     name: "Corner Opening System",
     tag: "Architect Favourite",
     description:
-      "Two independent runs of folding panels meeting at a corner — when fully open, the corner of the building disappears entirely, creating a panoramic opening in two directions simultaneously.",
-    body: "A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels — typically one per wall face — that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. SIGNATURESPAN corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above — not an intermediate post.",
+      "Two independent runs of folding panels meeting at a corner, when fully open, the corner of the building disappears entirely, creating a panoramic opening in two directions simultaneously.",
+    body: "A corner opening system is the most architecturally dramatic glass wall product available. It requires two runs of folding panels, typically one per wall face, that stack away from the corner in opposite directions. When both runs are open, what was a structural corner becomes a void: the outdoors and indoors are continuous on two axes. SIGNATURESPAN corner systems are engineered with concealed or minimal corner posts that disappear visually into the open building. The structural loading at the corner is handled by the frame above, not an intermediate post.",
 
     specs: [
       { k: "Configuration", v: "Two independent panel runs" },
@@ -96,7 +96,7 @@ const BENEFITS = [
   {
     num: "01",
     headline: "The most complete opening available.",
-    body: "No other product type opens a wall face as completely as a folding glass system. Sliding systems leave panels stacked to the side. Pocket systems are limited in width. A bi-fold system folds its panels into a compact stack — leaving the entire width of the opening clear.",
+    body: "No other product type opens a wall face as completely as a folding glass system. Sliding systems leave panels stacked to the side. Pocket systems are limited in width. A bi-fold system folds its panels into a compact stack, leaving the entire width of the opening clear.",
   },
   {
     num: "02",
@@ -106,7 +106,7 @@ const BENEFITS = [
   {
     num: "03",
     headline: "Structural engineering included.",
-    body: "Opening an entire wall face has structural implications. SIGNATURESPAN provides full structural calculations and engineering data for every folding wall system — including corner configurations — to support the architect's documentation package and building consent applications.",
+    body: "Opening an entire wall face has structural implications. SIGNATURESPAN provides full structural calculations and engineering data for every folding wall system, including corner configurations, to support the architect's documentation package and building consent applications.",
   },
 ]
 
@@ -125,7 +125,7 @@ const FAQS = [
   },
   {
     q: "What structural support is needed for a corner opening system?",
-    a: "Corner systems require a structural header beam capable of spanning the full width of the opening on each wall face — the corner post is not a load-bearing element. SIGNATURESPAN provides beam load calculations as part of the specification package.",
+    a: "Corner systems require a structural header beam capable of spanning the full width of the opening on each wall face, the corner post is not a load-bearing element. SIGNATURESPAN provides beam load calculations as part of the specification package.",
   },
 ]
 
@@ -169,7 +169,7 @@ export default function FoldingGlassWallsPage() {
             <em>dissolved.</em>
           </h1>
           <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed mb-10">
-            Bi-fold glass walls and corner opening systems — the most complete
+            Bi-fold glass walls and corner opening systems, the most complete
             indoor-outdoor connection in architecture.
           </p>
           <Link href="/contact" className="btn-primary">
@@ -196,14 +196,14 @@ export default function FoldingGlassWallsPage() {
                 A folding glass wall system removes the distinction between
                 inside and outside more completely than any other product. When
                 the panels are folded back and stacked, the wall simply isn't
-                there anymore — the floor continues, the ceiling continues, and
+                there anymore, the floor continues, the ceiling continues, and
                 the room extends into the garden, terrace, or landscape beyond.
               </p>
               <p className="font-sans text-forma-muted text-base leading-relaxed">
                 This is architecture without compromise. SIGNATURESPAN folding
                 systems are specified for projects where the relationship
                 between built space and outdoor space is the primary design
-                intention — and where getting that relationship right matters
+                intention, and where getting that relationship right matters
                 enough to invest in the engineering that makes it work.
               </p>
             </div>
@@ -212,7 +212,7 @@ export default function FoldingGlassWallsPage() {
         <div className="w-full h-px bg-forma-divider" />
       </section>
 
-      {/* ── Products — large alternating showcase ── */}
+      {/* ── Products, large alternating showcase ── */}
       <section className="bg-forma-white" aria-label="Folding wall systems">
         {PRODUCTS.map((p, i) => (
           <div key={p.id} id={p.id}>
@@ -273,7 +273,7 @@ export default function FoldingGlassWallsPage() {
         ))}
       </section>
 
-      {/* ── Benefits — dark ── */}
+      {/* ── Benefits, dark ── */}
       <section className="bg-forma-black">
         <div className="w-full h-px bg-forma-white/8" />
         <div className="site-container py-28 lg:py-36">

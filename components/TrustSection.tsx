@@ -22,7 +22,7 @@ const TESTIMONIALS = [
 
 const CERTIFICATIONS = [
   'NAFS (North American Fenestration Standard) Tested',
-  'Thermally Broken Aluminum — Class A Profile',
+  'Thermally Broken Aluminum, Class A Profile',
   'Energy Star Eligible Products',
   'CSA A440 Compliant',
   'LEED-Contributing Specifications Available',
@@ -53,7 +53,7 @@ export default function TrustSection() {
         {/* Testimonials + Certifications */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
 
-          {/* Testimonials — takes 2 cols */}
+          {/* Testimonials, takes 2 cols */}
           <div className="lg:col-span-2">
             <p className="section-label mb-10">What They Say</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">

@@ -23,9 +23,9 @@ export async function POST(request: Request) {
     <table style="border-collapse:collapse;">
       <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">Name</td><td>${name}</td></tr>
       <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">Email</td><td>${email}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">Phone</td><td>${phone || '—'}</td></tr>
+      <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">Phone</td><td>${phone || '-'}</td></tr>
       <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">Project Type</td><td>${projectType}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">System</td><td>${system || '—'}</td></tr>
+      <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">System</td><td>${system || '-'}</td></tr>
       <tr><td style="padding:4px 12px 4px 0;font-weight:bold;">Location</td><td>${location}</td></tr>
     </table>
     ${message ? `<h3>Project Details</h3><p>${message}</p>` : ''}
@@ -36,7 +36,7 @@ export async function POST(request: Request) {
       from: `"SIGNATURESPAN Website" <${process.env.SMTP_USER}>`,
       to: 'lucjan@signaturespan.com',
       replyTo: email,
-      subject: `Quote Request from ${name} — ${projectType}`,
+      subject: `Quote Request from ${name}, ${projectType}`,
       html,
     })
 

@@ -3,9 +3,9 @@ import Link from "next/link"
 import CTASection from "@/components/CTASection"
 
 export const metadata: Metadata = {
-  title: "Sliding Door Systems — Lift & Slide, Multi-Panel, Pocket",
+  title: "Sliding Door Systems: Lift & Slide, Multi-Panel, Pocket",
   description:
-    "Large-format sliding glass door systems from SIGNATURESPAN — lift & slide, multi-panel, and concealed pocket doors. Custom widths up to 8m. Thermally broken aluminium, residential and commercial.",
+    "Large-format sliding glass door systems from SIGNATURESPAN, lift & slide, multi-panel, and concealed pocket doors. Custom widths up to 8m. Thermally broken aluminium, residential and commercial.",
   keywords: [
     "sliding glass doors",
     "lift and slide doors",
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      "Sliding Glass Door Systems — Lift & Slide, Multi-Panel — SIGNATURESPAN",
+      "Sliding Glass Door Systems: Lift & Slide, Multi-Panel | SIGNATURESPAN",
     description:
-      "Large-format sliding glass door systems — lift & slide, multi-panel, and concealed pocket. Custom widths up to 8m.",
+      "Large-format sliding glass door systems, lift & slide, multi-panel, and concealed pocket. Custom widths up to 8m.",
     images: [
       {
         url: "/images/hero.jpg",
@@ -59,14 +59,14 @@ const PRODUCTS = [
     name: "Lift & Slide System",
     tag: "Most Specified",
     description:
-      "The benchmark for large-format sliding doors. Panels lift off the sill seal as the handle turns, then travel on hardened steel rollers with fingertip ease — regardless of panel weight.",
-    body: "The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage — allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. SIGNATURESPAN lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.",
+      "The benchmark for large-format sliding doors. Panels lift off the sill seal as the handle turns, then travel on hardened steel rollers with fingertip ease, regardless of panel weight.",
+    body: "The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage, allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. SIGNATURESPAN lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.",
     specs: [
       { k: "Max Panel Width", v: "3,000 mm per panel" },
       { k: "Max Panel Height", v: "3,200 mm" },
       { k: "Max Panel Weight", v: "400 kg" },
       { k: "Max Opening", v: "6,000 mm (2-panel) · 8,000 mm (4-panel)" },
-      { k: "Thermal Break", v: "Yes — Class A Aluminium Profile" },
+      { k: "Thermal Break", v: "Yes, Class A Aluminium Profile" },
       { k: "Glazing", v: "Double or Triple Glazed · Low-E" },
     ],
     image: "/images/sliding-doors-Lift & Slide System.png",
@@ -78,14 +78,14 @@ const PRODUCTS = [
     name: "Multi-Panel Sliding",
     tag: null,
     description:
-      "Two, three, or four panels sliding in parallel tracks — designed for wide openings where maximum glass area is required and panels stack neatly out of the way.",
+      "Two, three, or four panels sliding in parallel tracks, designed for wide openings where maximum glass area is required and panels stack neatly out of the way.",
     body: "Multi-panel sliding systems allow a single wide opening to be divided across several lighter, more manageable panels that slide and stack at one or both ends. This makes them ideal for wide indoor-outdoor transitions in open-plan living areas, restaurant terraces, and commercial hospitality spaces. Panels can stack internally to one side, externally, or into a recessed pocket. A flush-threshold option is available for seamless indoor-outdoor continuity.",
 
     specs: [
       { k: "Panel Count", v: "2, 3, or 4 panels" },
       { k: "Max Total Width", v: "Up to 10,000 mm" },
       { k: "Max Panel Height", v: "3,000 mm" },
-      { k: "Stacking", v: "Left, Right, or Both — internal or external" },
+      { k: "Stacking", v: "Left, Right, or Both, internal or external" },
       { k: "Threshold", v: "Low-profile or flush" },
       { k: "Applications", v: "Residential · Commercial · Hospitality" },
     ],
@@ -98,8 +98,8 @@ const PRODUCTS = [
     name: "Pocket Sliding Doors",
     tag: "Architect Favourite",
     description:
-      "Panels slide entirely into a concealed wall cavity — leaving no visible frame, no stacked glass, nothing but an open threshold when the doors are retracted.",
-    body: "A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides — the glass has simply disappeared. SIGNATURESPAN pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.",
+      "Panels slide entirely into a concealed wall cavity, leaving no visible frame, no stacked glass, nothing but an open threshold when the doors are retracted.",
+    body: "A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides, the glass has simply disappeared. SIGNATURESPAN pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.",
     specs: [
       { k: "Pocket Type", v: "Single or Double (opposing)" },
       { k: "Max Panel Width", v: "1,800 mm per panel" },
@@ -116,7 +116,7 @@ const BENEFITS = [
   {
     num: "01",
     headline: "The indoor-outdoor connection, resolved.",
-    body: "A sliding door system is the architectural hinge between interior living space and the outdoors. When it works — when the panels glide, the threshold disappears, and the outside becomes part of the room — it changes how a home feels every day.",
+    body: "A sliding door system is the architectural hinge between interior living space and the outdoors. When it works, when the panels glide, the threshold disappears, and the outside becomes part of the room, it changes how a home feels every day.",
   },
   {
     num: "02",
@@ -126,7 +126,7 @@ const BENEFITS = [
   {
     num: "03",
     headline: "Specified, not estimated.",
-    body: "Our team works directly with your project drawings to select the right configuration — panel count, stack direction, threshold type, and glass specification. You receive a full technical package with system drawings, hardware schedules, and energy data before you commit to order.",
+    body: "Our team works directly with your project drawings to select the right configuration, panel count, stack direction, threshold type, and glass specification. You receive a full technical package with system drawings, hardware schedules, and energy data before you commit to order.",
   },
 ]
 
@@ -149,7 +149,7 @@ const COMPARE = [
     vals: [
       "Stacked beside opening",
       "Stacked at edge",
-      "Nothing — fully hidden",
+      "Nothing, fully hidden",
     ],
   },
   {
@@ -157,7 +157,7 @@ const COMPARE = [
     vals: [
       "Low-profile or flush",
       "Low-profile or flush",
-      "Flush — no track visible",
+      "Flush, no track visible",
     ],
   },
   { label: "Thermal Performance", vals: ["★★★★★", "★★★★", "★★★★"] },
@@ -204,7 +204,7 @@ export default function SlidingDoorsPage() {
             <em>Close the distance.</em>
           </h1>
           <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed mb-10">
-            Lift & slide, multi-panel, and concealed pocket systems — engineered
+            Lift & slide, multi-panel, and concealed pocket systems, engineered
             to dissolve the boundary between inside and out.
           </p>
           <Link href="/contact" className="btn-primary">
@@ -229,7 +229,7 @@ export default function SlidingDoorsPage() {
             <div className="space-y-5 lg:pt-4">
               <p className="font-sans text-forma-muted text-base sm:text-[17px] leading-relaxed">
                 The sliding glass door is one of the most significant
-                transitions in modern residential design — the moment where the
+                transitions in modern residential design, the moment where the
                 interior and exterior become a single continuous space. Getting
                 it right requires more than a large frame and adequate glass: it
                 demands hardware that works under weight, seals that perform in
@@ -239,7 +239,7 @@ export default function SlidingDoorsPage() {
               <p className="font-sans text-forma-muted text-base leading-relaxed">
                 SIGNATURESPAN sliding systems are selected and specified for
                 each project individually. We don't offer one-size-fits-all
-                configurations — we offer the right system for your opening,
+                configurations, we offer the right system for your opening,
                 your climate, and your architecture.
               </p>
             </div>
@@ -311,7 +311,7 @@ export default function SlidingDoorsPage() {
         ))}
       </section>
 
-      {/* ── Comparison table — dark ── */}
+      {/* ── Comparison table, dark ── */}
       <section className="bg-forma-black" aria-label="System comparison">
         <div className="w-full h-px bg-forma-white/8" />
         <div className="site-container py-24 lg:py-28">

@@ -38,8 +38,8 @@ const SYSTEMS: Record<string, SystemData> = {
     name: "Floor-to-Ceiling Windows",
     tag: "Most Specified",
     description:
-      "Full-height glazing that transforms a wall into an uninterrupted view. Manufactured from sill to soffit in single bays or continuous runs — the defining element of contemporary residential architecture.",
-    body: "Architects specify floor-to-ceiling glazing to fundamentally change how a room relates to its site. At SIGNATURESPAN, each unit is produced to your exact height and width — no compromise on proportion, no off-the-shelf sight lines. Available in fixed, tilt-turn, or tilt-slide configurations to suit the ventilation and acoustic requirements of each project.",
+      "Full-height glazing that transforms a wall into an uninterrupted view. Manufactured from sill to soffit in single bays or continuous runs, the defining element of contemporary residential architecture.",
+    body: "Architects specify floor-to-ceiling glazing to fundamentally change how a room relates to its site. At SIGNATURESPAN, each unit is produced to your exact height and width, no compromise on proportion, no off-the-shelf sight lines. Available in fixed, tilt-turn, or tilt-slide configurations to suit the ventilation and acoustic requirements of each project.",
     specs: [
       { k: "Max Width", v: "4,200 mm per unit" },
       { k: "Max Height", v: "3,600 mm per unit" },
@@ -49,7 +49,7 @@ const SYSTEMS: Record<string, SystemData> = {
     ],
     image: "/images/caledon-house-interrior-1.jpg",
     imageAlt:
-      "Floor-to-ceiling windows in a contemporary Ontario home — interior view to landscape",
+      "Floor-to-ceiling windows in a contemporary Ontario home, interior view to landscape",
     related: [
       { href: "/windows/picture-windows", name: "Picture Windows" },
       { href: "/windows/corner-glass", name: "Corner Glass Systems" },
@@ -67,18 +67,18 @@ const SYSTEMS: Record<string, SystemData> = {
     name: "Picture Windows",
     tag: null,
     description:
-      "Fixed, frameless glazing sized to the view — not the catalogue. A picture window creates a composition that never changes.",
-    body: "Picture windows are the purest form of architectural glazing: a fixed pane of glass, precisely framed, that captures a view like a painting on a wall. Because they're non-operable, the frame can be reduced to near-zero — maximising visible glass area and eliminating the visual noise of hinges, handles, and seals. SIGNATURESPAN manufactures picture windows to any rectangular dimension, with interior- or exterior-flush frame options.",
+      "Fixed, frameless glazing sized to the view, not the catalogue. A picture window creates a composition that never changes.",
+    body: "Picture windows are the purest form of architectural glazing: a fixed pane of glass, precisely framed, that captures a view like a painting on a wall. Because they're non-operable, the frame can be reduced to near-zero, maximising visible glass area and eliminating the visual noise of hinges, handles, and seals. SIGNATURESPAN manufactures picture windows to any rectangular dimension, with interior- or exterior-flush frame options.",
     specs: [
       { k: "Form", v: "Fixed · Non-operable" },
       { k: "Frame Profile", v: "Slim-line or flush rebated" },
-      { k: "Glass", v: "Any spec — low-iron available" },
+      { k: "Glass", v: "Any spec, low-iron available" },
       { k: "Finish", v: "Any RAL · Anodised · Dual-colour" },
       { k: "Custom Size", v: "Any rectangular dimension" },
     ],
     image: "/images/caledon-house-interrior-2.jpg",
     imageAlt:
-      "Custom picture window framing landscape view — slim profile aluminium frame",
+      "Custom picture window framing landscape view, slim profile aluminium frame",
     related: [
       { href: "/windows/floor-to-ceiling", name: "Floor-to-Ceiling Windows" },
       { href: "/windows/corner-glass", name: "Corner Glass Systems" },
@@ -97,17 +97,17 @@ const SYSTEMS: Record<string, SystemData> = {
     tag: "Architect Favourite",
     description:
       "Two glazing panels meeting at a 90° corner with no intermediate post. The structural challenge has been solved. What remains is pure transparency.",
-    body: "A true frameless corner requires the structural work to be done in the frame itself — not masked by a post or column. SIGNATURESPAN's corner glass systems eliminate the intermediate mullion entirely, allowing two full-height panes to meet at the corner of a building with only a hairline joint. The result is an uninterrupted panoramic view in two directions simultaneously. Available as a fixed system or integrated with our lift & slide door range for operable corner openings.",
+    body: "A true frameless corner requires the structural work to be done in the frame itself, not masked by a post or column. SIGNATURESPAN's corner glass systems eliminate the intermediate mullion entirely, allowing two full-height panes to meet at the corner of a building with only a hairline joint. The result is an uninterrupted panoramic view in two directions simultaneously. Available as a fixed system or integrated with our lift & slide door range for operable corner openings.",
     specs: [
       { k: "Corner Type", v: "90° internal · 90° external" },
-      { k: "Post", v: "None — frameless junction" },
+      { k: "Post", v: "None, frameless junction" },
       { k: "Max Height", v: "3,200 mm" },
       { k: "Integration", v: "Fixed or Lift & Slide operable" },
       { k: "Finish", v: "Powder Coat · Anodised · RAL" },
     ],
     image: "/images/home-Corner Glass Systems.webp",
     imageAlt:
-      "Frameless corner glass system — two panels meeting at 90° with no intermediate post",
+      "Frameless corner glass system, two panels meeting at 90° with no intermediate post",
     related: [
       { href: "/windows/floor-to-ceiling", name: "Floor-to-Ceiling Windows" },
       { href: "/windows/picture-windows", name: "Picture Windows" },
@@ -126,7 +126,7 @@ const SYSTEMS: Record<string, SystemData> = {
     tag: null,
     description:
       "Architectural glazing for feature walls, interior partitions, commercial facades, and structural glass bays where the glass itself is the architecture.",
-    body: "When glazing needs to span large structural openings, or serve as a building's primary facade material, fixed glass panels provide the scale and precision required. SIGNATURESPAN supplies structural glazing systems for both residential and commercial applications — from single large panes silicone-bonded into frames, to multi-panel grid facades. All panels are engineered to specification with full structural calculations available.",
+    body: "When glazing needs to span large structural openings, or serve as a building's primary facade material, fixed glass panels provide the scale and precision required. SIGNATURESPAN supplies structural glazing systems for both residential and commercial applications, from single large panes silicone-bonded into frames, to multi-panel grid facades. All panels are engineered to specification with full structural calculations available.",
     specs: [
       { k: "Max Size", v: "3,200 mm × 4,000 mm" },
       { k: "System", v: "Capped · Semi-frameless · Structural sealant" },
@@ -136,7 +136,7 @@ const SYSTEMS: Record<string, SystemData> = {
     ],
     image: "/images/rural-house-roof-1.jpg",
     imageAlt:
-      "Fixed glass panel system on a residential facade — structural glazing",
+      "Fixed glass panel system on a residential facade, structural glazing",
     related: [
       { href: "/windows/floor-to-ceiling", name: "Floor-to-Ceiling Windows" },
       { href: "/windows/corner-glass", name: "Corner Glass Systems" },
@@ -164,11 +164,11 @@ export async function generateMetadata({
   const data = SYSTEMS[params.system]
   if (!data) return {}
   return {
-    title: `${data.name} — Architectural Windows`,
+    title: `${data.name}: Architectural Windows`,
     description: data.description,
     keywords: data.keywords,
     openGraph: {
-      title: `${data.name} — SIGNATURESPAN INC.`,
+      title: `${data.name} | SIGNATURESPAN INC.`,
       description: data.description,
       images: [{ url: data.image, alt: data.imageAlt }],
     },

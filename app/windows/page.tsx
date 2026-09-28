@@ -5,7 +5,7 @@ import CTASection from "@/components/CTASection"
 export const metadata: Metadata = {
   title: "Large Format Architectural Windows",
   description:
-    "Floor-to-ceiling windows, picture windows, corner glass systems, and fixed panels — custom-sized, thermally broken aluminium for residential and commercial projects.",
+    "Floor-to-ceiling windows, picture windows, corner glass systems, and fixed panels, custom-sized, thermally broken aluminium for residential and commercial projects.",
   keywords: [
     "large format windows",
     "floor to ceiling windows",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "thermally broken aluminum windows",
   ],
   openGraph: {
-    title: "Large Format Architectural Windows — SIGNATURESPAN",
+    title: "Large Format Architectural Windows | SIGNATURESPAN",
     description:
-      "Floor-to-ceiling windows, picture windows, corner glass systems, and fixed panels — custom-sized thermally broken aluminium.",
+      "Floor-to-ceiling windows, picture windows, corner glass systems, and fixed panels, custom-sized thermally broken aluminium.",
     images: [
       {
         url: "/images/hero.jpg",
@@ -58,8 +58,8 @@ const PRODUCTS = [
     name: "Floor-to-Ceiling Windows",
     tag: "Most Specified",
     description:
-      "Full-height glazing that transforms a wall into an uninterrupted view. Manufactured from sill to soffit in single bays or continuous runs — the defining element of contemporary residential architecture.",
-    body: "Architects specify floor-to-ceiling glazing to fundamentally change how a room relates to its site. At SIGNATURESPAN, each unit is produced to your exact height and width — no compromise on proportion, no off-the-shelf sight lines. Available in fixed, tilt-turn, or tilt-slide configurations to suit the ventilation and acoustic requirements of each project.",
+      "Full-height glazing that transforms a wall into an uninterrupted view. Manufactured from sill to soffit in single bays or continuous runs, the defining element of contemporary residential architecture.",
+    body: "Architects specify floor-to-ceiling glazing to fundamentally change how a room relates to its site. At SIGNATURESPAN, each unit is produced to your exact height and width, no compromise on proportion, no off-the-shelf sight lines. Available in fixed, tilt-turn, or tilt-slide configurations to suit the ventilation and acoustic requirements of each project.",
     specs: [
       { k: "Max Width", v: "4,200 mm per unit" },
       { k: "Max Height", v: "3,600 mm per unit" },
@@ -76,12 +76,12 @@ const PRODUCTS = [
     name: "Picture Windows",
     tag: null,
     description:
-      "Fixed, frameless glazing sized to the view — not the catalogue. A picture window creates a composition that never changes.",
-    body: "Picture windows are the purest form of architectural glazing: a fixed pane of glass, precisely framed, that captures a view like a painting on a wall. Because they're non-operable, the frame can be reduced to near-zero — maximising visible glass area and eliminating the visual noise of hinges, handles, and seals. SIGNATURESPAN manufactures picture windows to any rectangular dimension, with interior- or exterior-flush frame options.",
+      "Fixed, frameless glazing sized to the view, not the catalogue. A picture window creates a composition that never changes.",
+    body: "Picture windows are the purest form of architectural glazing: a fixed pane of glass, precisely framed, that captures a view like a painting on a wall. Because they're non-operable, the frame can be reduced to near-zero, maximising visible glass area and eliminating the visual noise of hinges, handles, and seals. SIGNATURESPAN manufactures picture windows to any rectangular dimension, with interior- or exterior-flush frame options.",
     specs: [
       { k: "Form", v: "Fixed · Non-operable" },
       { k: "Frame Profile", v: "Slim-line or flush rebated" },
-      { k: "Glass", v: "Any spec — low-iron available" },
+      { k: "Glass", v: "Any spec, low-iron available" },
       { k: "Finish", v: "Any RAL · Anodised · Dual-colour" },
       { k: "Custom Size", v: "Any rectangular dimension" },
     ],
@@ -95,10 +95,10 @@ const PRODUCTS = [
     tag: "Architect Favourite",
     description:
       "Two glazing panels meeting at a 90° corner with no intermediate post. The structural challenge has been solved. What remains is pure transparency.",
-    body: "A true frameless corner requires the structural work to be done in the frame itself — not masked by a post or column. SIGNATURESPAN's corner glass systems eliminate the intermediate mullion entirely, allowing two full-height panes to meet at the corner of a building with only a hairline joint. The result is an uninterrupted panoramic view in two directions simultaneously. Available as a fixed system or integrated with our lift & slide door range for operable corner openings.",
+    body: "A true frameless corner requires the structural work to be done in the frame itself, not masked by a post or column. SIGNATURESPAN's corner glass systems eliminate the intermediate mullion entirely, allowing two full-height panes to meet at the corner of a building with only a hairline joint. The result is an uninterrupted panoramic view in two directions simultaneously. Available as a fixed system or integrated with our lift & slide door range for operable corner openings.",
     specs: [
       { k: "Corner Type", v: "90° internal · 90° external" },
-      { k: "Post", v: "None — frameless junction" },
+      { k: "Post", v: "None, frameless junction" },
       { k: "Max Height", v: "3,200 mm" },
       { k: "Integration", v: "Fixed or Lift & Slide operable" },
       { k: "Finish", v: "Powder Coat · Anodised · RAL" },
@@ -113,7 +113,7 @@ const PRODUCTS = [
     tag: null,
     description:
       "Architectural glazing for feature walls, interior partitions, commercial facades, and structural glass bays where the glass itself is the architecture.",
-    body: "When glazing needs to span large structural openings, or serve as a building's primary facade material, fixed glass panels provide the scale and precision required. SIGNATURESPAN supplies structural glazing systems for both residential and commercial applications — from single large panes silicone-bonded into frames, to multi-panel grid facades. All panels are engineered to specification with full structural calculations available.",
+    body: "When glazing needs to span large structural openings, or serve as a building's primary facade material, fixed glass panels provide the scale and precision required. SIGNATURESPAN supplies structural glazing systems for both residential and commercial applications, from single large panes silicone-bonded into frames, to multi-panel grid facades. All panels are engineered to specification with full structural calculations available.",
     specs: [
       { k: "Max Size", v: "3,200 mm × 4,000 mm" },
       { k: "System", v: "Capped · Semi-frameless · Structural sealant" },
@@ -134,12 +134,12 @@ const BENEFITS = [
   {
     num: "02",
     headline: "Thermal performance you can specify.",
-    body: "Thermally broken aluminium profiles, warm-edge spacer bars, and triple-glazed options are standard across our range. We provide U-value performance data and energy ratings for every system — essential for passive house projects, LEED certification, and energy code compliance in cold climates.",
+    body: "Thermally broken aluminium profiles, warm-edge spacer bars, and triple-glazed options are standard across our range. We provide U-value performance data and energy ratings for every system, essential for passive house projects, LEED certification, and energy code compliance in cold climates.",
   },
   {
     num: "03",
     headline: "Manufactured to your specification.",
-    body: "We don't stock from warehouses. Every SIGNATURESPAN window is manufactured to your exact opening dimensions, chosen profile depth, and glass specification — with production timelines measured in weeks. Changes to sizing or specification are accommodated until the point of manufacture.",
+    body: "We don't stock from warehouses. Every SIGNATURESPAN window is manufactured to your exact opening dimensions, chosen profile depth, and glass specification, with production timelines measured in weeks. Changes to sizing or specification are accommodated until the point of manufacture.",
   },
 ]
 
@@ -183,7 +183,7 @@ export default function WindowsPage() {
             <em>limitation.</em>
           </h1>
           <p className="font-sans text-forma-white/90 text-base sm:text-lg max-w-[420px] leading-relaxed mb-10">
-            Architectural windows specified to your exact opening — from
+            Architectural windows specified to your exact opening, from
             standard residential bays to floor-to-ceiling glass systems spanning
             4,200mm.
           </p>
@@ -208,7 +208,7 @@ export default function WindowsPage() {
             </div>
             <div className="space-y-5 lg:pt-4">
               <p className="font-sans text-forma-muted text-base sm:text-[17px] leading-relaxed">
-                Before the furniture, before the finishes — the scale, position,
+                Before the furniture, before the finishes, the scale, position,
                 and quality of glazing determines how a space lives. It shapes
                 where morning light falls, how the landscape is framed at dusk,
                 and whether a room feels anchored or open.
@@ -216,7 +216,7 @@ export default function WindowsPage() {
               <p className="font-sans text-forma-muted text-base leading-relaxed">
                 SIGNATURESPAN designs and manufactures large-format windows for
                 architects, builders, and homeowners who treat glass as a
-                building material — not an afterthought. Every system is
+                building material, not an afterthought. Every system is
                 custom-sized, thermally broken, and delivered with full
                 specification documentation.
               </p>
@@ -242,7 +242,7 @@ export default function WindowsPage() {
         <div className="w-full h-px bg-forma-divider" />
       </section>
 
-      {/* ── Product Highlights — alternating layout ── */}
+      {/* ── Product Highlights, alternating layout ── */}
       <section className="bg-forma-white" aria-label="Window systems">
         {PRODUCTS.map((p, i) => (
           <div key={p.id} id={p.id}>
@@ -310,7 +310,7 @@ export default function WindowsPage() {
         ))}
       </section>
 
-      {/* ── Architectural Benefits — dark bg ── */}
+      {/* ── Architectural Benefits, dark bg ── */}
       <section className="bg-forma-black" aria-label="Architectural benefits">
         <div className="w-full h-px bg-forma-white/8" />
         <div className="site-container py-28 lg:py-36">
@@ -365,8 +365,8 @@ export default function WindowsPage() {
               <p className="font-sans text-forma-muted text-sm leading-relaxed max-w-sm">
                 SIGNATURESPAN frames are manufactured from thermally broken
                 aluminium alloy. Glass is independently sourced from certified
-                European and North American suppliers, specified by the project
-                — not by stock availability.
+                European and North American suppliers, specified by the project,
+                not by stock availability.
               </p>
             </div>
             <div>

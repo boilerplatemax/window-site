@@ -13,11 +13,6 @@ const COMPANY = [
   { href: '/contact',  label: 'Contact' },
 ]
 
-const LEGAL = [
-  { href: '/privacy', label: 'Privacy Policy' },
-  { href: '/terms',   label: 'Terms of Use' },
-]
-
 export default function Footer() {
   return (
     <footer className="bg-forma-black text-forma-white">
@@ -33,17 +28,17 @@ export default function Footer() {
             </p>
             <p className="font-sans text-forma-white/70 text-sm leading-relaxed max-w-xs mb-8">
               Large-format windows, sliding systems, folding glass walls, and architectural
-              entry doors — engineered for residential and commercial projects.
+              entry doors, engineered for residential and commercial projects.
             </p>
             <p className="section-label-light mb-2">Contact</p>
             <div className="space-y-3">
               <div>
-                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Octavius Wojciechowski — VP of Sales</p>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Octavius Wojciechowski, VP of Sales</p>
                 <a href="mailto:octavius@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-0.5">octavius@signaturespan.com</a>
                 <a href="tel:+15198974573" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">+1 (519) 897-4573</a>
               </div>
               <div>
-                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Lucjan Janeczek — VP of Operations</p>
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Lucjan Janeczek, VP of Operations</p>
                 <a href="mailto:lucjan@signaturespan.com" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block mb-0.5">lucjan@signaturespan.com</a>
                 <a href="tel:+14168917555" className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 block">+1 (416) 891-7555</a>
               </div>
@@ -106,21 +101,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div className="pt-8">
           <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/55">
             © {new Date().getFullYear()} SIGNATURESPAN INC. All rights reserved.
           </p>
-          <div className="flex gap-6">
-            {LEGAL.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className="font-mono text-[10px] tracking-label uppercase text-forma-white/55 hover:text-forma-white/60 transition-colors duration-200"
-              >
-                {label}
-              </Link>
-            ))}
-          </div>
         </div>
       </div>
     </footer>

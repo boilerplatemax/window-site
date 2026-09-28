@@ -25,18 +25,18 @@ const SYSTEMS: Record<string, SystemData> = {
   'lift-and-slide': {
     name: 'Lift & Slide System',
     tag: 'Most Specified',
-    description: 'The benchmark for large-format sliding doors. Panels lift off the sill seal as the handle turns, then travel on hardened steel rollers with fingertip ease — regardless of panel weight.',
-    body: 'The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage — allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. SIGNATURESPAN lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.',
+    description: 'The benchmark for large-format sliding doors. Panels lift off the sill seal as the handle turns, then travel on hardened steel rollers with fingertip ease, regardless of panel weight.',
+    body: 'The lift & slide mechanism solves the fundamental problem of large glass panels: the heavier the panel, the harder it becomes to slide. By lifting the panel 3mm off its seal when the handle rotates, the full weight transfers to the roller carriage, allowing panels weighing up to 400kg to glide as smoothly as a bedroom door. SIGNATURESPAN lift & slide systems are available in 2, 3, and 4-panel configurations with fixed light and stacking options on either or both sides.',
     specs: [
       { k: 'Max Panel Width',  v: '3,000 mm per panel' },
       { k: 'Max Panel Height', v: '3,200 mm' },
       { k: 'Max Panel Weight', v: '400 kg' },
       { k: 'Max Opening',      v: '6,000 mm (2-panel) · 8,000 mm (4-panel)' },
-      { k: 'Thermal Break',    v: 'Yes — Class A Aluminium Profile' },
+      { k: 'Thermal Break',    v: 'Yes, Class A Aluminium Profile' },
       { k: 'Glazing',          v: 'Double or Triple Glazed · Low-E' },
     ],
     image: '/images/caledon-house-backyard-1.jpg',
-    imageAlt: 'Lift and slide door system open to outdoor terrace — large format aluminium sliding doors',
+    imageAlt: 'Lift and slide door system open to outdoor terrace, large format aluminium sliding doors',
     related: [
       { href: '/sliding-doors/multi-panel', name: 'Multi-Panel Sliding' },
       { href: '/sliding-doors/pocket-doors', name: 'Pocket Sliding Doors' },
@@ -47,18 +47,18 @@ const SYSTEMS: Record<string, SystemData> = {
   'multi-panel': {
     name: 'Multi-Panel Sliding',
     tag: null,
-    description: 'Two, three, or four panels sliding in parallel tracks — designed for wide openings where maximum glass area is required and panels stack neatly out of the way.',
+    description: 'Two, three, or four panels sliding in parallel tracks, designed for wide openings where maximum glass area is required and panels stack neatly out of the way.',
     body: 'Multi-panel sliding systems allow a single wide opening to be divided across several lighter, more manageable panels that slide and stack at one or both ends. This makes them ideal for wide indoor-outdoor transitions in open-plan living areas, restaurant terraces, and commercial hospitality spaces. Panels can stack internally to one side, externally, or into a recessed pocket. A flush-threshold option is available for seamless indoor-outdoor continuity.',
     specs: [
       { k: 'Panel Count',      v: '2, 3, or 4 panels' },
       { k: 'Max Total Width',  v: 'Up to 10,000 mm' },
       { k: 'Max Panel Height', v: '3,000 mm' },
-      { k: 'Stacking',         v: 'Left, Right, or Both — internal or external' },
+      { k: 'Stacking',         v: 'Left, Right, or Both, internal or external' },
       { k: 'Threshold',        v: 'Low-profile or flush' },
       { k: 'Applications',     v: 'Residential · Commercial · Hospitality' },
     ],
     image: '/images/caledon-house-backyard-1.jpg',
-    imageAlt: 'Multi-panel sliding door system — wide opening with panels stacked to the side',
+    imageAlt: 'Multi-panel sliding door system, wide opening with panels stacked to the side',
     related: [
       { href: '/sliding-doors/lift-and-slide', name: 'Lift & Slide System' },
       { href: '/sliding-doors/pocket-doors', name: 'Pocket Sliding Doors' },
@@ -69,8 +69,8 @@ const SYSTEMS: Record<string, SystemData> = {
   'pocket-doors': {
     name: 'Pocket Sliding Doors',
     tag: 'Architect Favourite',
-    description: 'Panels slide entirely into a concealed wall cavity — leaving no visible frame, no stacked glass, nothing but an open threshold when the doors are retracted.',
-    body: 'A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides — the glass has simply disappeared. SIGNATURESPAN pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.',
+    description: 'Panels slide entirely into a concealed wall cavity, leaving no visible frame, no stacked glass, nothing but an open threshold when the doors are retracted.',
+    body: 'A pocket sliding system demands precise structural coordination but delivers the cleanest possible indoor-outdoor connection. When the panels are retracted, the wall reads as solid on both sides, the glass has simply disappeared. SIGNATURESPAN pocket systems include custom framing kits that integrate into timber frame, steel frame, or concrete construction. Single and double-pocket (meeting in the middle) configurations are available for symmetrical openings.',
     specs: [
       { k: 'Pocket Type',      v: 'Single or Double (opposing)' },
       { k: 'Max Panel Width',  v: '1,800 mm per panel' },
@@ -80,7 +80,7 @@ const SYSTEMS: Record<string, SystemData> = {
       { k: 'Glazing',          v: 'Double Glazed · Low-E · Acoustic options' },
     ],
     image: '/images/caledon-house-interrior-1.jpg',
-    imageAlt: 'Pocket sliding door system — concealed within wall cavity for invisible transition',
+    imageAlt: 'Pocket sliding door system, concealed within wall cavity for invisible transition',
     related: [
       { href: '/sliding-doors/lift-and-slide', name: 'Lift & Slide System' },
       { href: '/sliding-doors/multi-panel', name: 'Multi-Panel Sliding' },
@@ -98,11 +98,11 @@ export async function generateMetadata({ params }: { params: { system: string } 
   const data = SYSTEMS[params.system]
   if (!data) return {}
   return {
-    title: `${data.name} — Sliding Door Systems`,
+    title: `${data.name}: Sliding Door Systems`,
     description: data.description,
     keywords: data.keywords,
     openGraph: {
-      title: `${data.name} — SIGNATURESPAN INC.`,
+      title: `${data.name} | SIGNATURESPAN INC.`,
       description: data.description,
       images: [{ url: data.image, alt: data.imageAlt }],
     },
