@@ -51,9 +51,11 @@ const jsonLd = {
   email: 'octavius@signaturespan.com',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Vancouver',
-    addressRegion: 'BC',
-    addressCountry: 'CA',
+    streetAddress: '2598 E Sunrise Blvd',
+    addressLocality: 'Fort Lauderdale',
+    addressRegion: 'FL',
+    postalCode: '33304',
+    addressCountry: 'US',
   },
   areaServed: ['Canada', 'United States'],
   hasOfferCatalog: {

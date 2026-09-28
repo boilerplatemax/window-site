@@ -340,6 +340,22 @@ export default function ContactPage() {
                 </div>
               </div>
 
+              {/* Office address */}
+              <div className="border-t border-forma-divider pt-8">
+                <p className="section-label mb-4">Office</p>
+                <address className="not-italic">
+                  <a
+                    href="https://maps.google.com/?q=2598+E+Sunrise+Blvd,+Fort+Lauderdale,+FL+33304"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block font-sans text-forma-text text-sm leading-relaxed hover:text-forma-gold transition-colors duration-200 not-italic"
+                  >
+                    2598 E Sunrise Blvd<br />
+                    Fort Lauderdale, FL 33304
+                  </a>
+                </address>
+              </div>
+
               {/* Office hours */}
               <div className="border-t border-forma-divider pt-8">
                 <p className="section-label mb-4">Office Hours</p>
