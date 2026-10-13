@@ -49,14 +49,25 @@ const jsonLd = {
   url: 'https://signaturespan.com',
   telephone: '+15198974573',
   email: 'octavius@signaturespan.com',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '2598 E Sunrise Blvd',
-    addressLocality: 'Fort Lauderdale',
-    addressRegion: 'FL',
-    postalCode: '33304',
-    addressCountry: 'US',
-  },
+  address: [
+    {
+      '@type': 'PostalAddress',
+      streetAddress: '2598 E Sunrise Blvd',
+      addressLocality: 'Fort Lauderdale',
+      addressRegion: 'FL',
+      postalCode: '33304',
+      addressCountry: 'US',
+    },
+    {
+      '@type': 'PostalAddress',
+      name: 'CB Aluminum System Showroom',
+      streetAddress: '7250 Keele St Unit 239',
+      addressLocality: 'Vaughan',
+      addressRegion: 'ON',
+      postalCode: 'L4K 1Z8',
+      addressCountry: 'CA',
+    },
+  ],
   areaServed: ['Canada', 'United States'],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',

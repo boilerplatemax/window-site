@@ -340,20 +340,36 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Office address */}
+              {/* Office addresses */}
               <div className="border-t border-forma-divider pt-8">
-                <p className="section-label mb-4">Office</p>
-                <address className="not-italic">
-                  <a
-                    href="https://maps.google.com/?q=2598+E+Sunrise+Blvd,+Fort+Lauderdale,+FL+33304"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block font-sans text-forma-text text-sm leading-relaxed hover:text-forma-gold transition-colors duration-200 not-italic"
-                  >
-                    2598 E Sunrise Blvd<br />
-                    Fort Lauderdale, FL 33304
-                  </a>
-                </address>
+                <p className="section-label mb-4">Offices</p>
+                <div className="space-y-5">
+                  <address className="not-italic">
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">United States</p>
+                    <a
+                      href="https://maps.google.com/?q=2598+E+Sunrise+Blvd,+Fort+Lauderdale,+FL+33304"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block font-sans text-forma-text text-sm leading-relaxed hover:text-forma-gold transition-colors duration-200 not-italic"
+                    >
+                      2598 E Sunrise Blvd<br />
+                      Fort Lauderdale, FL 33304
+                    </a>
+                  </address>
+                  <address className="not-italic">
+                    <p className="font-mono text-[10px] tracking-label uppercase text-forma-muted mb-1">Canada</p>
+                    <a
+                      href="https://maps.google.com/?q=CB+Aluminum+System+Showroom,+7250+Keele+St+Unit+239,+Vaughan,+ON+L4K+1Z8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block font-sans text-forma-text text-sm leading-relaxed hover:text-forma-gold transition-colors duration-200 not-italic"
+                    >
+                      CB Aluminum System Showroom<br />
+                      7250 Keele St Unit 239<br />
+                      Vaughan, ON L4K 1Z8
+                    </a>
+                  </address>
+                </div>
               </div>
 
               {/* Office hours */}
