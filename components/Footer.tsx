@@ -49,18 +49,34 @@ export default function Footer() {
               </div>
             </div>
 
-            <p className="section-label-light mt-8 mb-2">Office</p>
-            <address className="not-italic">
-              <a
-                href="https://maps.google.com/?q=2598+E+Sunrise+Blvd,+Fort+Lauderdale,+FL+33304"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 not-italic"
-              >
-                2598 E Sunrise Blvd<br />
-                Fort Lauderdale, FL 33304
-              </a>
-            </address>
+            <p className="section-label-light mt-8 mb-2">Offices</p>
+            <div className="space-y-4">
+              <address className="not-italic">
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">United States</p>
+                <a
+                  href="https://maps.google.com/?q=2598+E+Sunrise+Blvd,+Fort+Lauderdale,+FL+33304"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 not-italic"
+                >
+                  2598 E Sunrise Blvd<br />
+                  Fort Lauderdale, FL 33304
+                </a>
+              </address>
+              <address className="not-italic">
+                <p className="font-mono text-[10px] tracking-label uppercase text-forma-white/50 mb-0.5">Canada</p>
+                <a
+                  href="https://maps.google.com/?q=CB+Aluminum+System+Showroom,+7250+Keele+St+Unit+239,+Vaughan,+ON+L4K+1Z8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-sm text-forma-white/85 hover:text-forma-gold transition-colors duration-200 not-italic"
+                >
+                  CB Aluminum System Showroom<br />
+                  7250 Keele St Unit 239<br />
+                  Vaughan, ON L4K 1Z8
+                </a>
+              </address>
+            </div>
           </div>
 
           {/* Products */}
